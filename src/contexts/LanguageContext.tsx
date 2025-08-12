@@ -111,7 +111,7 @@ const translations = {
     'common.more_info': 'MORE INFO',
 
     // Company Section
-    'company.title': 'Hay & Straw Trading – Germany-wide',
+    'company.title': 'Hay & Straw Trading – Germany-wide, Austria, Switzerland, Denmark, France and all of Europe.,
     'company.subtitle': 'Our Services',
     'company.buy.title': 'Buy Hay & Straw',
     'company.buy.description': 'Do you want to buy hay & straw in high quality at fair prices with premium service? Then you are in the right place. We sell hay and straw year-round.',
@@ -186,7 +186,7 @@ const translations = {
     'common.more_info': 'MEER INFO',
 
     // Company Section
-    'company.title': 'Hooi & Stro Handel – Duitsland-breed',
+    'company.title': 'Hooi & Stro Handel – Duitsland-breed', Oostenrijk, Zwitserland, Denemarken, Frankrijk en heel Europa.,
     'company.subtitle': 'Onze Diensten',
     'company.buy.title': 'Hooi & Stro Kopen',
     'company.buy.description': 'Wilt u hooi & stro van hoge kwaliteit tegen eerlijke prijzen met premium service kopen? Dan bent u bij ons aan het juiste adres. Wij verkopen het hele jaar door hooi en stro.',
@@ -261,7 +261,7 @@ const translations = {
     'common.more_info': 'PLUS D\'INFO',
 
     // Company Section
-    'company.title': 'Commerce de Foin et Paille – À travers l\'Allemagne',
+    'company.title': 'Commerce de Foin et Paille – À travers l\'Allemagne', l'\Autriche, la Suisse, le Danemark, la France et toute l'\Europe.,
     'company.subtitle': 'Nos Services',
     'company.buy.title': 'Acheter Foin et Paille',
     'company.buy.description': 'Voulez-vous acheter du foin et de la paille de haute qualité à des prix équitables avec un service premium? Alors vous êtes au bon endroit. Nous vendons du foin et de la paille toute l\'année.',
