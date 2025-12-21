@@ -11,14 +11,17 @@ type Language = 'de' | 'en' | 'nl' | 'fr'
 interface LanguageContextType {
   language: Language
   setLanguage: (lang: Language) => void
-  t: (key: string) => TranslationValue
+  t: {
+    (key: 'faq.items'): FAQItem[]
+    (key: string): string
+  }
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined)
 
 type FAQItem = { question: string; answer: string }
 type TranslationValue = string | FAQItem[]
-type Translations = Record<string, TranslationValue>
+type Translations = Record<string, unknown>
 
 const translations: Record<Language, Translations> = {
   de: de as Translations,
@@ -42,7 +45,9 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     localStorage.setItem('language', lang)
   }
 
-  const t = (key: string): TranslationValue => {
+  function t(key: 'faq.items'): FAQItem[]
+  function t(key: string): string
+  function t(key: string) {
     const getNested = (obj: unknown, path: string): unknown => {
       if (obj == null) return undefined
       if (typeof obj === 'object') {
@@ -61,12 +66,19 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     }
 
     const val = getNested(translations[language], key)
-    if (typeof val === 'undefined') {
-      // fallback to German locale if available
-      const fallback = getNested(translations['de'], key)
-      return typeof fallback === 'undefined' ? key : fallback
+    const resolved = typeof val === 'undefined'
+      ? getNested(translations['de'], key)
+      : val
+
+    if (typeof resolved === 'undefined') {
+      return key
     }
-    return val
+
+    if (Array.isArray(resolved)) {
+      return resolved as FAQItem[]
+    }
+
+    return String(resolved)
   }
 
   return (
