@@ -43,17 +43,21 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   }
 
   const t = (key: string): TranslationValue => {
-    const getNested = (obj: any, path: string) => {
+    const getNested = (obj: unknown, path: string): unknown => {
       if (obj == null) return undefined
-      // support dot-notation keys and direct keys containing dots
-      if (Object.prototype.hasOwnProperty.call(obj, path)) return obj[path]
-      const parts = path.split('.')
-      let cur = obj
-      for (const p of parts) {
-        if (cur == null || typeof cur !== 'object') return undefined
-        cur = cur[p]
+      if (typeof obj === 'object') {
+        const record = obj as Record<string, unknown>
+        // support dot-notation keys and direct keys containing dots
+        if (Object.prototype.hasOwnProperty.call(record, path)) return record[path]
+        const parts = path.split('.')
+        let cur: unknown = record
+        for (const p of parts) {
+          if (cur == null || typeof cur !== 'object') return undefined
+          cur = (cur as Record<string, unknown>)[p]
+        }
+        return cur
       }
-      return cur
+      return undefined
     }
 
     const val = getNested(translations[language], key)
