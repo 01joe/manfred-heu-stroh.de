@@ -43,8 +43,26 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   }
 
   const t = (key: string): TranslationValue => {
-    const val = translations[language][key]
-    return typeof val === 'undefined' ? key : val
+    const getNested = (obj: any, path: string) => {
+      if (obj == null) return undefined
+      // support dot-notation keys and direct keys containing dots
+      if (Object.prototype.hasOwnProperty.call(obj, path)) return obj[path]
+      const parts = path.split('.')
+      let cur = obj
+      for (const p of parts) {
+        if (cur == null || typeof cur !== 'object') return undefined
+        cur = cur[p]
+      }
+      return cur
+    }
+
+    const val = getNested(translations[language], key)
+    if (typeof val === 'undefined') {
+      // fallback to German locale if available
+      const fallback = getNested(translations['de'], key)
+      return typeof fallback === 'undefined' ? key : fallback
+    }
+    return val
   }
 
   return (
