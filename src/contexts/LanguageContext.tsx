@@ -11,25 +11,29 @@ type Language = 'de' | 'en' | 'nl' | 'fr'
 interface LanguageContextType {
   language: Language
   setLanguage: (lang: Language) => void
-  t: (key: string) => any
+  t: (key: string) => TranslationValue
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined)
 
-const translations: Record<Language, Record<string, any>> = {
-  de: de as any,
-  en: en as any,
-  nl: nl as any,
-  fr: fr as any,
+type FAQItem = { question: string; answer: string }
+type TranslationValue = string | FAQItem[]
+type Translations = Record<string, TranslationValue>
+
+const translations: Record<Language, Translations> = {
+  de: de as Translations,
+  en: en as Translations,
+  nl: nl as Translations,
+  fr: fr as Translations,
 }
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const [language, setLanguage] = useState<Language>('de')
 
   useEffect(() => {
-    const saved = localStorage.getItem('language') as Language
+    const saved = localStorage.getItem('language') as Language | null
     if (saved && ['de', 'en', 'nl', 'fr'].includes(saved)) {
-      setLanguage(saved)
+      setLanguage(saved as Language)
     }
   }, [])
 
@@ -38,8 +42,8 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     localStorage.setItem('language', lang)
   }
 
-  const t = (key: string): any => {
-    const val = translations[language][key as keyof typeof translations[typeof language]]
+  const t = (key: string): TranslationValue => {
+    const val = translations[language][key]
     return typeof val === 'undefined' ? key : val
   }
 
