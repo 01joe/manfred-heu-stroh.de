@@ -1,0 +1,118 @@
+{
+  "nav.start": "HOME",
+  "nav.buy": "KOPEN",
+  "nav.sell": "TRANSPORT / LOGISTIEK",
+  "nav.faq": "VEELGESTELDE VRAGEN",
+  "nav.contact": "CONTACT",
+  "header.order": "Bestelling",
+
+  "hero.tagline": "HOOI & STRO HANDEL MANFRED",
+  "hero.title": "Hoge Kwaliteit tegen Eerlijke Prijzen met Premium Service",
+  "hero.buy.title": "Hooi en Stro",
+  "hero.buy.action": "KOPEN",
+  "hero.sell.title": "Transport &",
+  "hero.sell.action": "LOGISTIEK",
+  "hero.service.title": "Premium",
+  "hero.service.action": "SERVICE",
+  "hero.faq.title": "Veelgestelde",
+  "hero.faq.action": "VRAGEN",
+  "common.more_info": "MEER INFO",
+
+  "company.title": "Hooi & Stro Handel – Duitsland-breed, Oostenrijk, Zwitserland, Denemarken, Frankrijk en heel Europa.",
+  "company.subtitle": "Onze Diensten",
+  "company.buy.title": "Hooi & Stro Kopen",
+  "company.buy.description": "Wilt u hooi & stro van hoge kwaliteit tegen eerlijke prijzen met premium service kopen? Dan bent u bij ons aan het juiste adres. Wij verkopen het hele jaar door hooi en stro.",
+  "company.sell.title": "Transport & Logistiek",
+  "company.sell.description": "Professionele logistieke oplossingen voor hooi & stro. Met onze eigen vloot en ervaren personeel zorgen we voor betrouwbare leveringen door heel Duitsland en Europa.",
+  "common.learn_more": "MEER WETEN",
+
+  "contact.title": "Consultatie Plannen",
+  "contact.name": "Uw Naam",
+  "contact.phone": "Uw Telefoonnummer",
+  "contact.whatsapp": "WhatsApp Nummer",
+  "contact.company": "Bedrijfsnaam (optioneel)",
+  "contact.street": "Straat",
+  "contact.city": "Stad",
+  "contact.zip": "Uw Postcode",
+  "contact.interest": "Ik ben geïnteresseerd in...",
+  "contact.privacy": "Ik ga akkoord met de verwerking van mijn gegevens voor contactdoeleinden.",
+  "contact.privacy_link": "Meer over Privacy",
+  "contact.submit": "VERZENDEN",
+
+  "service.title": "Onze Premium Service",
+  "service.producers.title": "Geselecteerde Producenten",
+  "service.producers.description": "Wij kennen onze geselecteerde producenten persoonlijk en zijn ter plaatse met ons eigen gekwalificeerd personeel. Zo kunnen we hoge hooi & stro kwaliteit voor u garanderen.",
+  "service.delivery.title": "Eenvoudige Verwerking",
+  "service.delivery.description": "Wij leveren hooi & stro met onze eigen vloot – zoals u het nodig heeft – het hele jaar door. Betrouwbaar en Duitsland-breed. Bestel gewoon telefonisch of via online aanvraag.",
+  "service.guarantee.title": "Uitwisselingsgarantie",
+  "service.guarantee.description": "Wij zorgen voor perfecte kwaliteit. Mocht er een klacht of ontevredenheid zijn, dan wisselen we de goederen onmiddellijk uit – zonder discussie.",
+
+  "faq.tagline": "HOOI & STRO HANDEL – VEELGESTELDE VRAGEN",
+  "faq.title": "Veelgestelde Vragen over Hooi & Stro",
+  "faq.description": "Heeft u vragen over hooi en stro? Hier hebben we al enkele veelgestelde vragen beantwoord.",
+
+  "faq.items": [
+    {
+      "question": "Hoe herken ik goed hooi?",
+      "answer": "Goed hooi herken je aan de kleur, de samenstelling van de grassen, de geur en eventuele tekenen van slechte opslag of blootstelling aan regen of water. Ook duidelijke aanwijzingen zoals zichtbaar onkruid of graspollen zijn belangrijk. Belangrijk: hooi van slechte kwaliteit mag niet worden gebruikt omdat schimmelsporen zich kunnen ontwikkelen."
+    },
+    {
+      "question": "Waarom verschillen de prijzen per baal zoveel?",
+      "answer": "De prijzen zijn afhankelijk van de gewenste kwaliteit (stro voor stalbedekking of voer), het formaat (rond of vierkant, speciale maten) en de staat (lang, gehakseld of gesneden); de geschiktheid voor het beoogde gebruik is doorslaggevend."
+    },
+    {
+      "question": "Hoe bepaal ik de samenstelling van hooi?",
+      "answer": "In het algemeen kan de exacte samenstelling van hooi alleen met laboratoriumonderzoek worden vastgesteld. Groen hooi levert niet per se meer energie dan bruin hooi — dit hangt sterk af van de soorten en de locatie. De kleur geeft vooral carotenoïdegehalte en de staat van de buitenlaag aan."
+    },
+    {
+      "question": "Hoe herken ik goed stro?",
+      "answer": "De kwaliteit van stro wordt beoordeeld op kleur (goudgeel of eerder grijzig), geur, opslagomstandigheden en blootstelling aan weersinvloeden zoals regen. Zichtbaar onkruid en roodbruine verkleuring aan de buitenkant zijn duidelijke tekenen van slechte kwaliteit."
+    },
+    {
+      "question": "Welk hooi is het beste voor paarden?",
+      "answer": "Structuurrijk hooi met een hogere stengel/bladverhouding is het beste voor paarden. Bij voorkeur wordt de eerste snede van de hooioogst voor paarden gebruikt; maaien wordt daarop afgestemd."
+    },
+    {
+      "question": "Welk stro eten paarden/koeien het liefst?",
+      "answer": "Paarden krijgen zelden stro als vezelvoeding, maar geven de voorkeur aan tarwe- en gerststro. Voor runderen moet het voerstroo kort zijn, omdat lange halmen vaak in voermengsels achterblijven."
+    },
+    {
+      "question": "Hoe lang blijft hooi goed?",
+      "answer": "Als het goed wordt bewaard, blijft hooi ongeveer een jaar goed. Bij langere opslag veroudert hooi en nemen voedingsstoffen en vitamines af. Oud hooi moet over het algemeen niet aan paarden worden gevoerd."
+    },
+    {
+      "question": "Kan stro bederven?",
+      "answer": "Als stro goed wordt opgeslagen zodat er geen water in de balen kan komen, blijft het meerdere jaren bruikbaar."
+    },
+    {
+      "question": "Hoe moet hooi het beste worden opgeslagen?",
+      "answer": "Idealiter sla je hooi op onder een dak met muren. Als er geen muren zijn, sluit dan in ieder geval de wind- en weerzijde af zodat het hooi niet nat wordt. Zorg er ook voor dat er geen vocht vanuit de grond in het hooi trekt."
+    },
+    {
+      "question": "Hoeveel stro heeft een paard per maand nodig?",
+      "answer": "Dat hangt af van de hooi-voeding. Als ruwvoer vrij beschikbaar is, is extra stro meestal niet nodig."
+    },
+    {
+      "question": "Waarom biedt u geen kuilvoer aan?",
+      "answer": "Hooi- en kuilvoer zijn gevoelige producten. Bij paarden bestaat het risico op natte mest en bij onjuiste opslag kunnen schadelijke stoffen ontstaan. Om deze risico's te vermijden, bieden wij geen hooi- of kuilvoer aan."
+    },
+    {
+      "question": "Wat is de beste manier om stro op te slaan?",
+      "answer": "Bewaar stro bij voorkeur onder een dak; als er geen muren zijn, sluit dan de weerszijde af om het te beschermen. Zorg er ook voor dat er geen vocht vanaf de grond in het stro trekt."
+    }
+  ],
+
+  "footer.partners.title": "Uw Contactpartners",
+  "footer.jan.role": "Contact voor Hooi & Stro Kopers",
+  "footer.friedrich.role": "Contact voor Hooi & Stro Verkopers",
+  "footer.niklas.role": "Ter Plaatse Contact; Logistiek & Buitendienst",
+  "footer.christa.role": "Boekhouding",
+  "footer.order": "Bestelling",
+  "footer.email": "Email",
+  "footer.privacy": "Privacybeleid",
+  "footer.imprint": "Colofon",
+
+  "cookie.message": "Wij gebruiken alleen technisch noodzakelijke cookies op onze website. Uw gebruikersgedrag wordt niet geanalyseerd.",
+  "cookie.continue": "Doorgaan",
+  "cookie.privacy": "Privacybeleid"
+}

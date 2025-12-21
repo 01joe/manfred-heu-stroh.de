@@ -1,0 +1,118 @@
+{
+  "nav.start": "START",
+  "nav.buy": "KAUFEN",
+  "nav.sell": "TRANSPORT / LOGISTIK",
+  "nav.faq": "HÄUFIGE FRAGEN",
+  "nav.contact": "ANSPRECHPARTNER",
+  "header.order": "Bestellung",
+
+  "hero.tagline": "HEU & STROH HANDEL MANFRED",
+  "hero.title": "Hohe Qualität zum fairen Preis mit Spitzenservice",
+  "hero.buy.title": "Heu und Stroh",
+  "hero.buy.action": "KAUFEN",
+  "hero.sell.title": "Transport &",
+  "hero.sell.action": "LOGISTIK",
+  "hero.service.title": "Spitzen",
+  "hero.service.action": "SERVICE",
+  "hero.faq.title": "Häufige",
+  "hero.faq.action": "FRAGEN",
+  "common.more_info": "MEHR INFOS",
+
+  "company.title": "Heu & Stroh Handel – deutschlandweit, Österreich, Schweiz, Dänemark, Frankreich und ganz Europa.",
+  "company.subtitle": "Unsere Leistungen",
+  "company.buy.title": "Heu & Stroh kaufen",
+  "company.buy.description": "Sie wollen Heu & Stroh in hoher Qualität zum fairen Preis mit Spitzenservice kaufen? Dann sind Sie bei uns richtig. Wir verkaufen ganzjährig Heu und Stroh.",
+  "company.sell.title": "Transport & Logistik",
+  "company.sell.description": "Professionelle Logistiklösungen für Heu & Stroh. Mit eigenem Fuhrpark und erfahrenem Personal sorgen wir für zuverlässige Lieferungen deutschlandweit und in ganz Europa.",
+  "common.learn_more": "MEHR ERFAHREN",
+
+  "contact.title": "Beratung vereinbaren",
+  "contact.name": "Ihr Name",
+  "contact.phone": "Ihre Rufnummer",
+  "contact.whatsapp": "WhatsApp-Nummer",
+  "contact.company": "Name Ihres Unternehmens (optional)",
+  "contact.street": "Straße",
+  "contact.city": "Stadt",
+  "contact.zip": "Ihre PLZ",
+  "contact.interest": "Ich interessiere mich für...",
+  "contact.privacy": "Ich stimme der Verarbeitung meiner Daten zur Kontaktaufnahme zu.",
+  "contact.privacy_link": "Mehr zum Datenschutz",
+  "contact.submit": "ABSENDEN",
+
+  "service.title": "Unser Spitzenservice",
+  "service.producers.title": "Unser Hof und die Qualität unserer Ernten",
+  "service.producers.description": "Dank konsequenter landwirtschaftlicher Praktiken und sorgfältiger Überwachung in jeder Phase des Anbaus garantieren wir Ihnen Stroh und Heu von höchster Qualität.",
+  "service.delivery.title": "Einfache Abwicklung",
+  "service.delivery.description": "Wir liefern das Heu & Stroh mit eigenem Fuhrpark – so wie Sie es brauchen – das ganze Jahr über. Zuverlässig und deutschlandweit. Bestellen Sie einfach telefonisch oder per Online-Anfrage.",
+  "service.guarantee.title": "Austausch-Garantie",
+  "service.guarantee.description": "Wir sorgen für eine einwandfreie Qualität. Sollte es doch mal eine Beanstandung oder Unzufriedenheit geben, tauschen wir die Ware umgehend aus – ohne Diskussion.",
+
+  "faq.tagline": "HEU & STROH HANDEL – HÄUFIGE FRAGEN",
+  "faq.title": "Häufige Fragen zu Heu & Stroh",
+  "faq.description": "Sie haben Fragen rund um das Thema Heu und Stroh? Hier haben wir ein paar häufige Fragen bereits beantwortet.",
+
+  "faq.items": [
+    {
+      "question": "Woran erkenne ich gutes Heu?",
+      "answer": "Gutes Heu erkennt man an der Farbe, an der Zusammensetzung der Gräser, am Geruch, an Stellen durch schlechte Lagerung oder an den äußeren Einwirkungen wie Regen oder eingezogenem Wasser – aber auch an offensichtlichen Merkmalen wie sichtbarem Unkraut oder Grassoden. Wichtig: Heu von schlechter Qualität sollte man nicht verwenden, da sich Sporen von Schimmelpilzen bilden."
+    },
+    {
+      "question": "Warum sind die Preise je Ballen so unterschiedlich?",
+      "answer": "Die Preise richten sich nach der gewünschten Qualität (Stroh zum Streuen oder Füttern), nach dem Format (rund oder eckig, Sondermaß) und nach der Beschaffenheit (lang, geschnitten oder gehäckselt; jedoch für die jeweilige Anwendung auf jeden Fall geeignet)."
+    },
+    {
+      "question": "Wie bestimme ich die Inhaltsstoffe von Heu?",
+      "answer": "In der Regel kann man die Inhaltsstoffe im Heu nur mit einer Laboruntersuchung genau feststellen. Grünes Heu bietet dabei nicht mehr Energie als braunes Heu – was stark Sorten- und Standortabhängig ist. Die Farbe bestimmt lediglich den Carotingehalt und den Zustand der äußeren Schicht."
+    },
+    {
+      "question": "Woran erkenne ich gutes Stroh?",
+      "answer": "Die Stroh-Qualität erkennen Sie an der Farbe (ob goldgelb oder eher gräulich), am Geruch, an Lagerstellen oder äußeren Einwirkungen wie Regen oder eingezogenem Wasser. Wichtig: Offensichtliche Merkmale für eine schlechte Qualität sind sichtbares Unkraut und eine rotbräunliche Verfärbung an der Außenseite."
+    },
+    {
+      "question": "Welches ist das beste Heu für Pferde?",
+      "answer": "Für Pferde eignet sich strukturreiches Heu am besten – mit einem höheren Halm-Anteil zum Blatt-Anteil. Deswegen sollte auch vorzugsweise der erste Schnitt einer Heuernte für Pferde verwendet werden. Dabei wird nach der Blüte für Pferde gemäht."
+    },
+    {
+      "question": "Welches Stroh fressen Pferde / Rinder am liebsten?",
+      "answer": "Bei Pferden wird selten mit Stroh Rohfaser zugefüttert – jedoch fressen Pferde vorzugsweise Weizen- und Gerstenstroh. Bei Rindern ist es wichtig, dass das Futterstroh kurz ist, da die langen Halme bei den Futtermischungen gern übrig bleiben."
+    },
+    {
+      "question": "Wie lange hält sich Heu?",
+      "answer": "Ohne Kompromisse einzugehen hält sich Heu etwa ein Jahr. Bei längerer Lagerung wird Heu alt und es werden die Inhaltsstoffe und Vitamine abgebaut. Wichtig: Überjähriges Heu sollte grundsätzlich nicht an Pferde verfüttert werden."
+    },
+    {
+      "question": "Kann Stroh schlecht werden?",
+      "answer": "Wenn Stroh gut gelagert wird und so kein Wasser in die Ballen laufen oder ziehen kann, ist Stroh über mehrere Jahre lagerbar."
+    },
+    {
+      "question": "Wie sollte das Heu gelagert werden?",
+      "answer": "Idealerweise sollte man Heu unter einem Dach mit Wänden lagern. Falls keine Wände vorhanden sind, sollten zumindest die Wetterseiten geschlossen werden, sodass keine Witterung an das Heu gelangen kann. Zudem sollte man auch sicherstellen, dass keine Feuchtigkeit vom Boden in das Heu einzieht."
+    },
+    {
+      "question": "Wie viel Stroh braucht ein Pferd im Monat?",
+      "answer": "Das ist abhängig von der Heufütterung. Bei frei zugänglichem Raufutter ist eine Strohzufütterung nicht notwendig."
+    },
+    {
+      "question": "Warum bietet Ihr keine Silage an?",
+      "answer": "Heulage und Silage sind auch bei bester Ausführung in der Herstellung immer ein sensibles Gut. Es besteht bei Pferden die Gefahr von Kotwasser und entstehende Leichengifte bei eingepressten Tieren. Um diesen Streitpunkt zu vermeiden, halten wir Abstand von Heulage und Silage."
+    },
+    {
+      "question": "Wie lagere ich Stroh am besten?",
+      "answer": "Idealerweise wird Stroh unter einem Dach gelagert, falls keine Wände vorhanden sind, sollten zumindest die Wetterseiten geschlossen werden um es vor Witterung zu schützen. Zudem kann man auch sicherstellen, dass keine Feuchtigkeit vom Boden in das Stroh zieht."
+    }
+  ],
+
+  "footer.partners.title": "Ihre Ansprechpartner",
+  "footer.jan.role": "Ansprechpartner für Heu & Stroh-Käufer",
+  "footer.friedrich.role": "Ansprechpartner für Heu & Stroh-Verkäufer",
+  "footer.niklas.role": "Ansprechpartner vor Ort; Logistik & Außendienst",
+  "footer.christa.role": "Buchhaltung",
+  "footer.order": "Bestellung",
+  "footer.email": "E-Mail",
+  "footer.privacy": "Datenschutzerklärung",
+  "footer.imprint": "Impressum",
+
+  "cookie.message": "Wir setzen auf unserer Website nur technisch erforderliche Cookies ein. Ihr Nutzerverhalten wird nicht analysiert.",
+  "cookie.continue": "Fortfahren",
+  "cookie.privacy": "Datenschutzerklärung"
+}

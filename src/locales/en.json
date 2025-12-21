@@ -1,0 +1,118 @@
+{
+  "nav.start": "HOME",
+  "nav.buy": "BUY",
+  "nav.sell": "TRANSPORT / LOGISTICS",
+  "nav.faq": "FAQ",
+  "nav.contact": "CONTACT",
+  "header.order": "Order",
+
+  "hero.tagline": "HAY & STRAW TRADING MANFRED",
+  "hero.title": "High Quality at Fair Prices with Premium Service",
+  "hero.buy.title": "Hay and Straw",
+  "hero.buy.action": "BUY",
+  "hero.sell.title": "Transport &",
+  "hero.sell.action": "LOGISTICS",
+  "hero.service.title": "Premium",
+  "hero.service.action": "SERVICE",
+  "hero.faq.title": "Frequently",
+  "hero.faq.action": "ASKED QUESTIONS",
+  "common.more_info": "MORE INFO",
+
+  "company.title": "Hay & Straw Trading – Germany-wide, Austria, Switzerland, Denmark, France and all of Europe.",
+  "company.subtitle": "Our Services",
+  "company.buy.title": "Buy Hay & Straw",
+  "company.buy.description": "Do you want to buy hay & straw in high quality at fair prices with premium service? Then you are in the right place. We sell hay and straw year-round.",
+  "company.sell.title": "Transport & Logistics",
+  "company.sell.description": "Professional logistics solutions for hay & straw. With our own fleet and experienced personnel, we ensure reliable deliveries throughout Germany and Europe.",
+  "common.learn_more": "LEARN MORE",
+
+  "contact.title": "Schedule Consultation",
+  "contact.name": "Your Name",
+  "contact.phone": "Your Phone Number",
+  "contact.whatsapp": "WhatsApp Number",
+  "contact.company": "Company Name (optional)",
+  "contact.street": "Street",
+  "contact.city": "City",
+  "contact.zip": "Your ZIP Code",
+  "contact.interest": "I am interested in...",
+  "contact.privacy": "I agree to the processing of my data for contact purposes.",
+  "contact.privacy_link": "More about Privacy",
+  "contact.submit": "SUBMIT",
+
+  "service.title": "Our Premium Service",
+  "service.producers.title": "Selected Producers",
+  "service.producers.description": "We know our selected producer farms personally and are on-site with our own qualified personnel. This way we can ensure high hay & straw quality for you.",
+  "service.delivery.title": "Simple Processing",
+  "service.delivery.description": "We deliver hay & straw with our own fleet – as you need it – all year round. Reliable and Germany-wide. Simply order by phone or online request.",
+  "service.guarantee.title": "Exchange Guarantee",
+  "service.guarantee.description": "We ensure perfect quality. Should there be a complaint or dissatisfaction, we immediately exchange the goods – without discussion.",
+
+  "faq.tagline": "HAY & STRAW TRADING – FREQUENTLY ASKED QUESTIONS",
+  "faq.title": "Frequently Asked Questions about Hay & Straw",
+  "faq.description": "Do you have questions about hay and straw? Here we have already answered some frequently asked questions.",
+
+  "faq.items": [
+    {
+      "question": "How can I recognise good hay?",
+      "answer": "Good hay can be recognised by its colour, the composition of the grasses, the smell and any signs of poor storage or exposure to rain or water ingress — also obvious indicators like visible weeds or turf. Important: poor-quality hay should not be used because mould spores can develop."
+    },
+    {
+      "question": "Why do bale prices vary so much?",
+      "answer": "Prices depend on the desired quality (straw for bedding or feeding), the format (round or square, special sizes) and the condition (long, chopped or shredded); suitability for the intended use plays a major role."
+    },
+    {
+      "question": "How do I determine the nutritional content of hay?",
+      "answer": "In general, the exact nutritional content of hay can only be determined by laboratory analysis. Green hay does not necessarily provide more energy than brown hay — this depends strongly on species and location. Colour mainly reflects carotene content and the condition of the outer layer."
+    },
+    {
+      "question": "How can I recognise good straw?",
+      "answer": "Straw quality is judged by its colour (golden or rather greyish), smell, storage conditions and exposure to weather like rain or water ingress. Visible weeds and reddish-brown discoloration on the outside are clear signs of poor quality."
+    },
+    {
+      "question": "Which hay is best for horses?",
+      "answer": "Structurally rich hay with a higher stem-to-leaf ratio is best for horses. Preferably use the first cut of the hay harvest for horses; mowing is timed to suit horse feeding."
+    },
+    {
+      "question": "Which straw do horses/cattle prefer?",
+      "answer": "Horses seldom receive straw as a fibre supplement, but they tend to prefer wheat and barley straw. For cattle, straw should be short because long stems often remain in mixed rations."
+    },
+    {
+      "question": "How long does hay keep?",
+      "answer": "If stored without compromise, hay keeps for about one year. With longer storage hay ages and nutrients and vitamins degrade. Over-aged hay should generally not be fed to horses."
+    },
+    {
+      "question": "Can straw go bad?",
+      "answer": "If straw is stored properly so that no water can penetrate the bales, it can remain usable for several years."
+    },
+    {
+      "question": "How should hay be stored?",
+      "answer": "Ideally, store hay under a roof with walls. If there are no walls, at least close off the exposed sides so weather cannot reach the hay. Also ensure moisture from the ground does not wick into the hay."
+    },
+    {
+      "question": "How much straw does a horse need per month?",
+      "answer": "That depends on the horse's hay feeding. If roughage is freely available, additional straw supplementation is usually not necessary."
+    },
+    {
+      "question": "Why don't you offer silage?",
+      "answer": "Haylage and silage are sensitive products. With horses there is a risk of loose droppings and, in improperly stored material, the formation of harmful substances. To avoid these risks we refrain from offering haylage and silage."
+    },
+    {
+      "question": "What is the best way to store straw?",
+      "answer": "Ideally store straw under a roof; if there are no walls, at least close the weather-exposed sides to protect it. Also ensure moisture does not rise from the ground into the straw."
+    }
+  ],
+
+  "footer.partners.title": "Your Contact Partners",
+  "footer.jan.role": "Contact for Hay & Straw Buyers",
+  "footer.friedrich.role": "Contact for Hay & Straw Sellers",
+  "footer.niklas.role": "On-site Contact; Logistics & Field Service",
+  "footer.christa.role": "Accounting",
+  "footer.order": "Order",
+  "footer.email": "Email",
+  "footer.privacy": "Privacy Policy",
+  "footer.imprint": "Imprint",
+
+  "cookie.message": "We only use technically necessary cookies on our website. Your user behavior is not analyzed.",
+  "cookie.continue": "Continue",
+  "cookie.privacy": "Privacy Policy"
+}

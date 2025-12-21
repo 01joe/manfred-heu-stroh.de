@@ -1,0 +1,118 @@
+{
+  "nav.start": "ACCUEIL",
+  "nav.buy": "ACHETER",
+  "nav.sell": "TRANSPORT / LOGISTIQUE",
+  "nav.faq": "FAQ",
+  "nav.contact": "CONTACT",
+  "header.order": "Commande",
+
+  "hero.tagline": "COMMERCE DE FOIN ET PAILLE MANFRED",
+  "hero.title": "Haute Qualité à Prix Équitables avec Service Premium",
+  "hero.buy.title": "Foin et Paille",
+  "hero.buy.action": "ACHETER",
+  "hero.sell.title": "Transport &",
+  "hero.sell.action": "LOGISTIQUE",
+  "hero.service.title": "Service",
+  "hero.service.action": "PREMIUM",
+  "hero.faq.title": "Questions",
+  "hero.faq.action": "FRÉQUENTES",
+  "common.more_info": "PLUS D'INFO",
+
+  "company.title": "Commerce de Foin et Paille – À travers l'Allemagne, l'Autriche, la Suisse, le Danemark, la France et toute l'Europe.",
+  "company.subtitle": "Nos Services",
+  "company.buy.title": "Acheter Foin et Paille",
+  "company.buy.description": "Voulez-vous acheter du foin et de la paille de haute qualité à des prix équitables avec un service premium? Alors vous êtes au bon endroit. Nous vendons du foin et de la paille toute l'année.",
+  "company.sell.title": "Transport & Logistique",
+  "company.sell.description": "Solutions logistiques professionnelles pour le foin et la paille. Avec notre propre flotte et du personnel expérimenté, nous assurons des livraisons fiables dans toute l'Allemagne et l'Europe.",
+  "common.learn_more": "EN SAVOIR PLUS",
+
+  "contact.title": "Planifier une Consultation",
+  "contact.name": "Votre Nom",
+  "contact.phone": "Votre Numéro de Téléphone",
+  "contact.whatsapp": "Numéro WhatsApp",
+  "contact.company": "Nom de l'Entreprise (optionnel)",
+  "contact.street": "Rue",
+  "contact.city": "Ville",
+  "contact.zip": "Votre Code Postal",
+  "contact.interest": "Je suis intéressé par...",
+  "contact.privacy": "J'accepte le traitement de mes données à des fins de contact.",
+  "contact.privacy_link": "Plus sur la Confidentialité",
+  "contact.submit": "ENVOYER",
+
+  "service.title": "Notre Service Premium",
+  "service.producers.title": "Producteurs Sélectionnés",
+  "service.producers.description": "Nous connaissons personnellement nos fermes productrices sélectionnées et sommes sur place avec notre propre personnel qualifié. Ainsi, nous pouvons assurer une haute qualité de foin et paille pour vous.",
+  "service.delivery.title": "Traitement Simple",
+  "service.delivery.description": "Nous livrons le foin et la paille avec notre propre flotte – comme vous en avez besoin – toute l'année. Fiable et à travers l'Allemagne. Commandez simplement par téléphone ou demande en ligne.",
+  "service.guarantee.title": "Garantie d'Échange",
+  "service.guarantee.description": "Nous assurons une qualité parfaite. S'il y a une plainte ou une insatisfaction, nous échangeons immédiatement les marchandises – sans discussion.",
+
+  "faq.tagline": "COMMERCE DE FOIN ET PAILLE – QUESTIONS FRÉQUENTES",
+  "faq.title": "Questions Fréquemment Posées sur le Foin et la Paille",
+  "faq.description": "Avez-vous des questions sur le foin et la paille? Ici, nous avons déjà répondu à quelques questions fréquemment posées.",
+
+  "faq.items": [
+    {
+      "question": "Comment reconnaître un bon foin ?",
+      "answer": "Un bon foin se reconnaît à sa couleur, à la composition des graminées, à son odeur et aux signes d'une mauvaise conservation ou d'une exposition à la pluie ou à l'humidité. Des indications visibles comme les mauvaises herbes ou des plaques d'herbe sont également importantes. Important : le foin de mauvaise qualité ne doit pas être utilisé car des spores de moisissure peuvent se développer."
+    },
+    {
+      "question": "Pourquoi les prix par balle varient-ils autant ?",
+      "answer": "Les prix dépendent de la qualité souhaitée (paille pour litière ou pour alimentation), du format (rond ou carré, tailles spéciales) et de l'état (long, coupé ou haché) ; l'adéquation à l'utilisation prévue est déterminante."
+    },
+    {
+      "question": "Comment déterminer la composition du foin ?",
+      "answer": "En règle générale, la composition exacte du foin ne peut être déterminée précisément qu'en laboratoire. Le foin vert n'apporte pas nécessairement plus d'énergie que le foin brun — cela dépend fortement des espèces et du site. La couleur indique principalement la teneur en carotène et l'état de la couche extérieure."
+    },
+    {
+      "question": "Comment reconnaître une bonne paille ?",
+      "answer": "La qualité de la paille se juge à sa couleur (dorée ou plutôt grisâtre), à son odeur, aux conditions de stockage et à l'exposition aux intempéries comme la pluie. La présence de mauvaises herbes visibles ou des décolorations brun-rouge sur l'extérieur sont des signes clairs de mauvaise qualité."
+    },
+    {
+      "question": "Quel foin est le meilleur pour les chevaux ?",
+      "answer": "Le foin riche en structure, avec un rapport tige/feuille plus élevé, est le mieux adapté aux chevaux. Il est préférable d'utiliser la première coupe de foin pour les chevaux ; la fauche est adaptée à cet usage."
+    },
+    {
+      "question": "Quelle paille les chevaux / bovins préfèrent-ils ?",
+      "answer": "Les chevaux reçoivent rarement de la paille comme apport de fibres, mais ils préfèrent généralement la paille de blé et d'orge. Pour les bovins, la paille doit être courte car les longues tiges restent souvent dans les rations mélangées."
+    },
+    {
+      "question": "Combien de temps le foin se conserve-t-il ?",
+      "answer": "Conservé correctement, le foin se conserve environ un an. Au-delà, il vieillit et les nutriments et vitamines se dégradent. Le foin suranné ne devrait généralement pas être donné aux chevaux."
+    },
+    {
+      "question": "La paille peut-elle se détériorer ?",
+      "answer": "Si la paille est correctement stockée et qu'aucune eau ne peut pénétrer dans les bottes, elle peut rester utilisable pendant plusieurs années."
+    },
+    {
+      "question": "Comment doit-on stocker le foin ?",
+      "answer": "Idéalement, stockez le foin sous un toit avec des parois. S'il n'y a pas de parois, fermez au moins les côtés exposés aux intempéries pour éviter l'humidité. Veillez également à ce que l'humidité du sol ne remonte pas dans le foin."
+    },
+    {
+      "question": "Quelle quantité de paille un cheval a-t-il besoin par mois ?",
+      "answer": "Cela dépend de l'alimentation en foin. Si le fourrage grossier est librement disponible, un supplément de paille n'est généralement pas nécessaire."
+    },
+    {
+      "question": "Pourquoi n'offrez-vous pas d'ensilage ?",
+      "answer": "Le foin enrubanné et l'ensilage sont des produits sensibles. Chez les chevaux, il existe un risque de troubles digestifs et, en cas de mauvaise conservation, de formation de substances nocives. Pour éviter ces risques, nous n'offrons pas d'ensilage ni de foin enrubanné."
+    },
+    {
+      "question": "Quelle est la meilleure façon de stocker la paille ?",
+      "answer": "Stockez la paille de préférence sous un toit ; s'il n'y a pas de parois, fermez les côtés exposés aux intempéries pour la protéger. Assurez-vous également qu'aucune humidité ne remonte du sol dans la paille."
+    }
+  ],
+
+  "footer.partners.title": "Vos Partenaires de Contact",
+  "footer.jan.role": "Contact pour Acheteurs de Foin et Paille",
+  "footer.friedrich.role": "Contact pour Vendeurs de Foin et Paille",
+  "footer.niklas.role": "Contact Sur Site; Logistique & Service Terrain",
+  "footer.christa.role": "Comptabilité",
+  "footer.order": "Commande",
+  "footer.email": "Email",
+  "footer.privacy": "Politique de Confidentialité",
+  "footer.imprint": "Mentions Légales",
+
+  "cookie.message": "Nous n'utilisons que les cookies techniquement nécessaires sur notre site web. Votre comportement d'utilisateur n'est pas analysé.",
+  "cookie.continue": "Continuer",
+  "cookie.privacy": "Politique de Confidentialité"
+}
