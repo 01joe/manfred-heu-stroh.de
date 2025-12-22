@@ -191,9 +191,8 @@ export default function HomePage() {
               />
               <select className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105">
                 <option>{t('contact.interest')}</option>
-                <option>Heu kaufen</option>
-                <option>Stroh kaufen</option>
-                
+                <option>{t('contact.options.hay')}</option>
+                <option>{t('contact.options.straw')}</option>
               </select>
               <div className="md:col-span-2">
                 
@@ -262,11 +261,11 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12 animate-fade-in">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-              Unsere hochwertigen Produkte
+              {t('products.title')}
             </h2>
             <div className="w-24 h-1 bg-green-600 mx-auto mb-8"></div>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Von traditionellen Rundballen bis zu modernen Quaderballen - entdecken Sie unsere vielfältigen Heu- und Strohprodukte in Premium-Qualität.
+              {t('products.description')}
             </p>
           </div>
 
@@ -275,13 +274,13 @@ export default function HomePage() {
             <div className="bg-white rounded-lg overflow-hidden shadow-sm card-hover animate-slide-up">
               <img
                 src="https://images.unsplash.com/photo-1722543268696-f09a03e3592f?fm=jpg&q=80&w=3000"
-                alt="Rundballen auf dem Feld"
+                alt={t('products.round.alt')}
                 className="w-full h-48 object-cover hover-grow"
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-800 mb-2">Rundballen</h3>
+                <h3 className="text-xl font-bold text-gray-800 mb-2">{t('products.round.title')}</h3>
                 <p className="text-gray-600 text-sm">
-                  Traditionelle Rundballen für optimale Lagerung und einfache Handhabung. Ideal für Großbetriebe und landwirtschaftliche Anwendungen.
+                  {t('products.round.description')}
                 </p>
               </div>
             </div>
@@ -290,13 +289,13 @@ export default function HomePage() {
             <div className="bg-white rounded-lg overflow-hidden shadow-sm card-hover animate-slide-up" style={{animationDelay: '0.2s'}}>
               <img
                 src="https://plus.unsplash.com/premium_photo-1661830833689-98b6b5ec9339?fm=jpg&q=80&w=3000"
-                alt="Hochwertige Quaderballen"
+                alt={t('products.square.alt')}
                 className="w-full h-48 object-cover hover-grow"
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-800 mb-2">Quaderballen</h3>
+                <h3 className="text-xl font-bold text-gray-800 mb-2">{t('products.square.title')}</h3>
                 <p className="text-gray-600 text-sm">
-                  Kompakte Quaderballen für platzsparende Lagerung und einfachen Transport. Perfekt für kleinere Betriebe und Pferdehaltung.
+                  {t('products.square.description')}
                 </p>
               </div>
             </div>
@@ -305,13 +304,13 @@ export default function HomePage() {
             <div className="bg-white rounded-lg overflow-hidden shadow-sm card-hover animate-slide-up" style={{animationDelay: '0.4s'}}>
               <img
                 src="https://plus.unsplash.com/premium_photo-1664359132441-4cab2cccb891?fm=jpg&q=80&w=3000"
-                alt="Premium Heuqualität"
+                alt={t('products.premium.alt')}
                 className="w-full h-48 object-cover hover-grow"
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-800 mb-2">Premium-Qualität</h3>
+                <h3 className="text-xl font-bold text-gray-800 mb-2">{t('products.premium.title')}</h3>
                 <p className="text-gray-600 text-sm">
-                  Sorgfältig ausgewähltes Premium-Heu für höchste Ansprüche. Speziell für Allergiker und empfindliche Tiere geeignet.
+                  {t('products.premium.description')}
                 </p>
               </div>
             </div>

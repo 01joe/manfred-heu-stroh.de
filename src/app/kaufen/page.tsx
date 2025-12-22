@@ -1,7 +1,11 @@
+'use client'
+
 import Link from 'next/link'
 import { Check } from 'lucide-react'
+import { useLanguage } from '@/contexts/LanguageContext'
 
 export default function KaufenPage() {
+  const { t } = useLanguage()
   return (
     <div>
       {/* Hero Section */}
@@ -21,12 +25,12 @@ export default function KaufenPage() {
             </div>
 
             {/* Action Cards */}
-            <div className="space-y-4">
+              <div className="space-y-4">
               {/* Online Request Card */}
               <div className="bg-green-700 text-white p-6 rounded-lg">
                 <h3 className="font-bold text-lg mb-2">
                   Online-<br />
-                  <span className="text-2xl">ANFRAGE</span>
+                  <span className="text-2xl">{t('kaufen.hero.request')}</span>
                 </h3>
                 <a
                   href="#contact-form"
@@ -40,7 +44,7 @@ export default function KaufenPage() {
               <div className="bg-gray-100 p-6 rounded-lg">
                 <h3 className="text-gray-800 font-bold text-lg mb-2">
                   Qualitäts-<br />
-                  <span className="text-2xl">KRITERIEN</span>
+                  <span className="text-2xl">{t('kaufen.hero.criteria')}</span>
                 </h3>
                 <a
                   href="#quality-checklist"
@@ -70,17 +74,17 @@ export default function KaufenPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
             {/* Heu Section */}
             <div>
-              <h3 className="text-xl font-bold text-gray-800 mb-4">Heu</h3>
+              <h3 className="text-xl font-bold text-gray-800 mb-4">{t('kaufen.heu')}</h3>
               <p className="text-gray-600">
-                Wir liefern Heu in Quaderballen und Rundballen. Die Formate können in ihrer Größe variieren.
+                {t('kaufen.heu.description')}
               </p>
             </div>
 
             {/* Stroh Section */}
             <div>
-              <h3 className="text-xl font-bold text-gray-800 mb-4">Stroh</h3>
+              <h3 className="text-xl font-bold text-gray-800 mb-4">{t('kaufen.stroh')}</h3>
               <p className="text-gray-600">
-                Wir liefern Stroh geschnitten, ungeschnitten oder als Häckselstroh in Quaderballen.
+                {t('kaufen.stroh.description')}
               </p>
             </div>
 
@@ -106,7 +110,7 @@ export default function KaufenPage() {
       {/* Contact Form Section */}
       <section id="contact-form" className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Geben Sie hier Ihre Bestellung für Heu und Stroh auf, indem Sie das Formular ausfüllen.</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">{t('kaufen.order_form.title')}</h2>
           <div className="w-24 h-1 bg-green-600 mx-auto mb-12"></div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -172,10 +176,10 @@ export default function KaufenPage() {
                   className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
                 />
                 <select className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent md:col-span-2">
-                  <option>Ich interessiere mich für</option>
-                  <option>Heu kaufen</option>
-                  <option>Stroh kaufen</option>
-                  <option>Beides</option>
+                  <option>{t('contact.interest')}</option>
+                  <option>{t('contact.options.hay')}</option>
+                  <option>{t('contact.options.straw')}</option>
+                  <option>{t('contact.options.both')}</option>
                 </select>
                 <textarea
                   placeholder="Für alle Ihre Anliegen senden Sie uns hier eine Nachricht"
@@ -201,8 +205,8 @@ export default function KaufenPage() {
             </div>
 
             {/* Contact Info */}
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-bold text-gray-800 mb-4">Jetzt Stroh oder Heu telefonisch oder per WhatsApp bestellen</h3>
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <h3 className="text-xl font-bold text-gray-800 mb-4">{t('kaufen.order_via_phone')}</h3>
 
               <a
                 href="tel:+491630295106"
@@ -218,14 +222,14 @@ export default function KaufenPage() {
       {/* Service Features */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-gray-800 mb-12 text-center">Unser Spitzenservice</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mb-12 text-center">{t('service.title')}</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="flex items-start space-x-3 mb-4">
                 <Check className="w-6 h-6 text-green-600 mt-1 flex-shrink-0" />
                 <div className="text-left">
-                  <h3 className="text-xl font-bold text-gray-800 mb-2">Ausgewählte Erzeuger</h3>
+                  <h3 className="text-xl font-bold text-gray-800 mb-2">{t('service.producers.title')}</h3>
                   <p className="text-gray-600">
                     Wir kennen unsere ausgewählten Erzeugerbetriebe persönlich und sind mit eigenem
                     qualifizierten Personal vor Ort. So können wir für Sie eine hohe Heu- & Stroh-Qualität sicherstellen.
@@ -238,7 +242,7 @@ export default function KaufenPage() {
               <div className="flex items-start space-x-3 mb-4">
                 <Check className="w-6 h-6 text-green-600 mt-1 flex-shrink-0" />
                 <div className="text-left">
-                  <h3 className="text-xl font-bold text-gray-800 mb-2">Einfache Abwicklung</h3>
+                  <h3 className="text-xl font-bold text-gray-800 mb-2">{t('service.delivery.title')}</h3>
                   <p className="text-gray-600">
                     Wir liefern das Heu & Stroh mit eigenem Fuhrpark – so wie Sie es brauchen – das ganze Jahr über.
                     Zuverlässig und deutschlandweit. Bestellen Sie einfach telefonisch oder per Online-Anfrage.
@@ -251,7 +255,7 @@ export default function KaufenPage() {
               <div className="flex items-start space-x-3 mb-4">
                 <Check className="w-6 h-6 text-green-600 mt-1 flex-shrink-0" />
                 <div className="text-left">
-                  <h3 className="text-xl font-bold text-gray-800 mb-2">Austausch-Garantie</h3>
+                  <h3 className="text-xl font-bold text-gray-800 mb-2">{t('service.guarantee.title')}</h3>
                   <p className="text-gray-600">
                     Wir sorgen für eine einwandfreie Qualität. Sollte es doch mal eine Beanstandung oder
                     Unzufriedenheit geben, tauschen wir die Ware umgehend aus – ohne Diskussion.
@@ -275,8 +279,8 @@ export default function KaufenPage() {
             {/* Heu Quality */}
             <div>
               <h3 className="text-2xl font-bold text-gray-800 mb-6">
-                Daran erkennen Sie gute <em>Heuqualität</em>
-              </h3>
+                    {t('kaufen.quality.hay_title')}
+                  </h3>
               <p className="text-gray-600 mb-6">
                 Es gibt mehrere Faktoren, an denen sich gute Heuqualität erkennen lässt.
               </p>
@@ -301,8 +305,8 @@ export default function KaufenPage() {
             {/* Stroh Quality */}
             <div>
               <h3 className="text-2xl font-bold text-gray-800 mb-6">
-                Daran erkennen Sie gute <em>Strohqualität</em>
-              </h3>
+                    {t('kaufen.quality.straw_title')}
+                  </h3>
               <p className="text-gray-600 mb-6">
                 Wichtiger Hinweis: Es gibt unterschiedliche Sorten von Stroh, wobei jedes Stroh abhängig von der
                 verarbeiteten Getreidesorte zum Füttern oder Streuen geeignet ist.

@@ -1,7 +1,11 @@
+'use client'
+
 import Link from 'next/link'
 import { Check, Truck, MapPin, Clock } from 'lucide-react'
+import { useLanguage } from '@/contexts/LanguageContext'
 
 export default function TransportLogisticsPage() {
+  const { t } = useLanguage()
   return (
     <div>
       {/* Hero Section */}
@@ -21,12 +25,12 @@ export default function TransportLogisticsPage() {
             </div>
 
             {/* Action Cards */}
-            <div className="space-y-4">
+              <div className="space-y-4">
               {/* Fleet Info Card */}
               <div className="bg-green-700 text-white p-6 rounded-lg">
                 <h3 className="font-bold text-lg mb-2">
                   Unser<br />
-                  <span className="text-2xl">FUHRPARK</span>
+                  <span className="text-2xl">{t('verkaufen.hero.fleet')}</span>
                 </h3>
                 <a
                   href="#fleet-info"
@@ -40,7 +44,7 @@ export default function TransportLogisticsPage() {
               <div className="bg-gray-100 p-6 rounded-lg">
                 <h3 className="text-gray-800 font-bold text-lg mb-2">
                   Liefergebiete &<br />
-                  <span className="text-2xl">SERVICE</span>
+                  <span className="text-2xl">{t('verkaufen.hero.service')}</span>
                 </h3>
                 <a
                   href="#service-areas"
@@ -71,27 +75,27 @@ export default function TransportLogisticsPage() {
             {/* Fleet Services */}
             <div className="text-center">
               <Truck className="w-12 h-12 text-green-600 mx-auto mb-4" />
-              <h3 className="text-xl font-bold text-gray-800 mb-4">Eigener Fuhrpark</h3>
+              <h3 className="text-xl font-bold text-gray-800 mb-4">{t('verkaufen.fleet.own_title')}</h3>
               <p className="text-gray-600">
-                Moderne LKW-Flotte mit speziell ausgerüsteten Aufliegern für den sicheren Transport von Heu- und Strohballen.
+                {t('verkaufen.fleet.own_description')}
               </p>
             </div>
 
             {/* Coverage Area */}
             <div className="text-center">
               <MapPin className="w-12 h-12 text-green-600 mx-auto mb-4" />
-              <h3 className="text-xl font-bold text-gray-800 mb-4">Europaweite Lieferung</h3>
+              <h3 className="text-xl font-bold text-gray-800 mb-4">{t('verkaufen.fleet.coverage')}</h3>
               <p className="text-gray-600">
-                Zuverlässige Lieferungen in Deutschland, Österreich, Schweiz, Niederlande, Frankreich und weitere europäische Länder.
+                {t('verkaufen.fleet.coverage_description')}
               </p>
             </div>
 
             {/* Timing */}
             <div className="text-center">
               <Clock className="w-12 h-12 text-green-600 mx-auto mb-4" />
-              <h3 className="text-xl font-bold text-gray-800 mb-4">Ganzjährig verfügbar</h3>
+              <h3 className="text-xl font-bold text-gray-800 mb-4">{t('verkaufen.fleet.timing')}</h3>
               <p className="text-gray-600">
-                Kontinuierliche Lieferfähigkeit das ganze Jahr über - planbare Logistik für Ihre Bedürfnisse.
+                {t('verkaufen.fleet.timing_description')}
               </p>
             </div>
           </div>
@@ -111,13 +115,13 @@ export default function TransportLogisticsPage() {
       {/* Fleet Information Section */}
       <section id="fleet-info" className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Unser moderner Fuhrpark</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">{t('verkaufen.fleet.main_title')}</h2>
           <div className="w-24 h-1 bg-green-600 mx-auto mb-12"></div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Fleet Details */}
             <div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-6">Speziell ausgerüstete Fahrzeuge</h3>
+              <h3 className="text-2xl font-bold text-gray-800 mb-6">{t('verkaufen.fleet.details_title')}</h3>
               <p className="text-gray-600 mb-6">
                 Unsere LKW-Flotte ist speziell für den Transport von Heu und Stroh konzipiert und wird von hochqualifizierten,
                 erfahrenen Fahrern betrieben.
@@ -157,27 +161,27 @@ export default function TransportLogisticsPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Germany */}
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-gray-800 mb-4">🇩🇪 Deutschland</h3>
+              <h3 className="text-xl font-bold text-gray-800 mb-4">🇩🇪 {t('verkaufen.regions.de')}</h3>
               <p className="text-gray-600 mb-4">
-                Flächendeckende Belieferung in allen Bundesländern mit optimierten Routen und kurzen Lieferzeiten.
+                {t('verkaufen.regions.de_description')}
               </p>
               
             </div>
 
             {/* Austria & Switzerland */}
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-gray-800 mb-4">🇦🇹🇨🇭 Österreich & Schweiz</h3>
+              <h3 className="text-xl font-bold text-gray-800 mb-4">🇦🇹🇨🇭 {t('verkaufen.regions.at_ch')}</h3>
               <p className="text-gray-600 mb-4">
-                Zuverlässige Lieferungen in unsere Nachbarländer mit allen erforderlichen Zollformalitäten.
+                {t('verkaufen.regions.at_ch_description')}
               </p>
               
             </div>
 
             {/* Other European Countries */}
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-gray-800 mb-4">🇪🇺 Weitere EU-Länder</h3>
+              <h3 className="text-xl font-bold text-gray-800 mb-4">🇪🇺 {t('verkaufen.regions.eu')}</h3>
               <p className="text-gray-600 mb-4">
-                Internationale Logistik für verschiedene europäische Märkte mit lokaler Expertise.
+                {t('verkaufen.regions.eu_description')}
               </p>
               
             </div>
