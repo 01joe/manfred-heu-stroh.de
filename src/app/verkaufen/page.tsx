@@ -10,7 +10,7 @@ export default function TransportLogisticsPage() {
     <div>
       {/* Hero Section */}
       <section className="relative min-h-screen bg-cover bg-center bg-no-repeat"
-               style={{backgroundImage: "url('http://fraterworks.com/cdn/shop/products/clement-remond-mb934nV9EvQ-unsplash.jpg')"}}>
+               style={{backgroundImage: "url('/images/image 1.jpeg')"}}>
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <div className="relative container mx-auto px-4 py-20 md:py-32">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
