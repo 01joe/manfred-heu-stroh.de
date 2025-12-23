@@ -23,7 +23,7 @@ export default function HomePage() {
 
       {/* Hero Section */}
       <section className="relative min-h-screen bg-cover bg-center bg-no-repeat"
-               style={{backgroundImage: "url('https://images.unsplash.com/photo-1720173718367-f584a4432fd7?fm=jpg&q=80&w=3000')"}}>
+           style={{backgroundImage: "url('/images/image AC2.jpeg')"}}>
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <div className="relative container mx-auto px-4 py-20 md:py-32">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
@@ -114,7 +114,7 @@ export default function HomePage() {
             {/* Buy Section */}
             <div className="animate-slide-up hover-lift">
               <img
-                src="https://images.unsplash.com/photo-1596064747278-fe5283268c44?fm=jpg&q=80&w=3000"
+                src="/images/image AC3.jpeg"
                 alt={t('company.buy.title')}
                 className="w-full h-64 object-cover rounded-lg mb-6 hover-grow"
               />
@@ -133,7 +133,7 @@ export default function HomePage() {
             {/* Transport/Logistics Section */}
             <div className="animate-slide-up hover-lift">
               <img
-                src="https://images.unsplash.com/photo-1659257193040-de45f66216d2?fm=jpg&q=80&w=3000"
+                src="/images/image AC4.jpeg"
                 alt={t('company.sell.title')}
                 className="w-full h-64 object-cover rounded-lg mb-6 hover-grow"
               />
