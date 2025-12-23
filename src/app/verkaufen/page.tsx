@@ -17,10 +17,10 @@ export default function TransportLogisticsPage() {
             {/* Hero Content */}
             <div className="text-white">
               <p className="text-sm uppercase tracking-wide mb-4 text-green-200">
-                TRANSPORT & LOGISTIK
+                {t('verkaufen.hero.tagline')}
               </p>
               <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-                Zuverlässige Logistiklösungen für Heu und Stroh in ganz Europa
+                {t('verkaufen.hero.headline')}
               </h1>
             </div>
 
@@ -29,28 +29,28 @@ export default function TransportLogisticsPage() {
               {/* Fleet Info Card */}
               <div className="bg-green-700 text-white p-6 rounded-lg">
                 <h3 className="font-bold text-lg mb-2">
-                  Unser<br />
+                  {t('verkaufen.hero.our')}<br />
                   <span className="text-2xl">{t('verkaufen.hero.fleet')}</span>
                 </h3>
                 <a
                   href="#fleet-info"
                   className="inline-block bg-white text-green-700 px-4 py-2 rounded hover:bg-gray-100 transition-colors mt-4"
                 >
-                  MEHR ERFAHREN
+                  {t('verkaufen.hero.cta_learn')}
                 </a>
               </div>
 
               {/* Service Areas Card */}
               <div className="bg-gray-100 p-6 rounded-lg">
                 <h3 className="text-gray-800 font-bold text-lg mb-2">
-                  Liefergebiete &<br />
+                  {t('verkaufen.hero.service_prefix')}<br />
                   <span className="text-2xl">{t('verkaufen.hero.service')}</span>
                 </h3>
                 <a
                   href="#service-areas"
                   className="inline-block bg-gray-700 text-white px-4 py-2 rounded hover:bg-gray-800 transition-colors mt-4"
                 >
-                  ZUR ÜBERSICHT
+                  {t('verkaufen.hero.cta_overview')}
                 </a>
               </div>
             </div>
@@ -63,10 +63,10 @@ export default function TransportLogisticsPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-2xl font-bold text-gray-800 mb-6">
-              Professionelle Transport- und Logistiklösungen
+              {t('verkaufen.intro.title')}
             </h2>
             <p className="text-gray-600 max-w-3xl mx-auto text-lg">
-              Mit unserem modernen Fuhrpark und erfahrenem Fahrpersonal bieten wir zuverlässige Transportlösungen für Heu und Stroh. Unsere Logistikexperten sorgen für pünktliche Lieferungen in ganz Deutschland und Europa.
+              {t('verkaufen.intro.description')}
             </p>
             <div className="w-24 h-1 bg-green-600 mx-auto mt-8"></div>
           </div>
@@ -103,11 +103,9 @@ export default function TransportLogisticsPage() {
           {/* Logistics Solutions */}
           <div className="bg-gray-50 p-8 rounded-lg mb-16">
             <h3 className="text-2xl font-bold text-gray-800 mb-4">
-              Maßgeschneiderte Logistiklösungen
+              {t('verkaufen.logistics.title')}
             </h3>
-            <p className="text-gray-600">
-              Ob Einzellieferungen oder regelmäßige Transporte – wir entwickeln maßgeschneiderte Logistikkonzepte für Ihre Bedürfnisse. Unsere erfahrenen Disponenten optimieren Routen und Ladekapazitäten für maximale Effizienz. Von unserem Lager bis zur Anlieferung an den vom Kunden gewünschten Standort oder Ort stellen wir die Logistikkette sicher und übernehmen diese (von der Verladung Ihres Heus oder Strohs aus unserem Lager, dem Transport, der Entladung bis zur Anlieferung an die vom Kunden gewünschte Adresse).
-            </p>
+            <p className="text-gray-600">{t('verkaufen.logistics.description')}</p>
           </div>
         </div>
       </section>
@@ -122,20 +120,10 @@ export default function TransportLogisticsPage() {
             {/* Fleet Details */}
             <div>
               <h3 className="text-2xl font-bold text-gray-800 mb-6">{t('verkaufen.fleet.details_title')}</h3>
-              <p className="text-gray-600 mb-6">
-                Unsere LKW-Flotte ist speziell für den Transport von Heu und Stroh konzipiert und wird von hochqualifizierten,
-                erfahrenen Fahrern betrieben.
-              </p>
+              <p className="text-gray-600 mb-6">{t('verkaufen.fleet.details_description')}</p>
 
               <div className="space-y-4">
-                {[
-                  "Großraum-LKW mit speziellen Aufliegern für Heu- und Strohballen",
-                  "Pritschenauflieger für verschiedene Ballengrößen und -formate",
-                  "Moderne Fahrzeugflotte mit regelmäßiger Wartung und Kontrolle",
-                  "Erfahrene und geschulte Berufskraftfahrer",
-                  "GPS-Tracking für transparente Sendungsverfolgung",
-                  "Flexible Ladekapazitäten je nach Kundenbedarf"
-                ].map((feature, index) => (
+                {(t('verkaufen.fleet.features') as unknown as string[]).map((feature, index) => (
                   <div key={index} className="flex items-start space-x-3">
                     <Check className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
                     <p className="text-gray-700 text-sm">{feature}</p>
@@ -154,7 +142,7 @@ export default function TransportLogisticsPage() {
       <section id="service-areas" className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">
-            Unsere Liefergebiete
+            {t('verkaufen.service_areas.title')}
           </h2>
           <div className="w-24 h-1 bg-green-600 mx-auto mb-12"></div>
 
@@ -197,12 +185,12 @@ export default function TransportLogisticsPage() {
             <div className="space-y-4">
               <img
                 src="https://plus.unsplash.com/premium_photo-1661830833689-98b6b5ec9339?fm=jpg&q=80&w=3000"
-                alt="Hochwertige Heuballen"
+                alt={t('verkaufen.images.hay_alt')}
                 className="w-full h-64 object-cover rounded-lg"
               />
               <img
                 src="https://images.unsplash.com/photo-1659257193040-de45f66216d2?fm=jpg&q=80&w=3000"
-                alt="Professionelle Strohballen"
+                alt={t('verkaufen.images.straw_alt')}
                 className="w-full h-48 object-cover rounded-lg"
               />
             </div>
@@ -210,18 +198,11 @@ export default function TransportLogisticsPage() {
             {/* Advantages */}
             <div>
               <h2 className="text-3xl font-bold text-gray-800 mb-8">
-                Ihre Vorteile bei unserer Logistik
+                {t('verkaufen.advantages.title')}
               </h2>
 
               <div className="space-y-6">
-                {[
-                  "Eigener moderner Fuhrpark für maximale Flexibilität",
-                  "Erfahrenes Fahrpersonal mit Spezialisierung auf Agrarrohstoffe",
-                  "Europaweite Lieferungen mit allen erforderlichen Genehmigungen",
-                  "Professionelle Routenplanung und Disposition",
-                  "Transparente Sendungsverfolgung und Kommunikation",
-                  "Zuverlässige Lieferzeiten und flexible Terminplanung"
-                ].map((advantage, index) => (
+                {(t('verkaufen.advantages.items') as unknown as string[]).map((advantage, index) => (
                   <div key={index} className="flex items-start space-x-3">
                     <Check className="w-6 h-6 text-green-600 mt-1 flex-shrink-0" />
                     <p className="text-gray-700">{advantage}</p>

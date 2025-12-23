@@ -1,4 +1,4 @@
-'use client'
+"use client"
 
 import Link from 'next/link'
 import { Mail, MapPin, Phone } from 'lucide-react'
@@ -31,27 +31,24 @@ export default function Footer() {
                     href="tel:+491630295106"
                     className="text-green-700 hover:text-green-800 font-medium transition-all duration-300 hover:scale-105"
                   >
-                    Tel. +491630295106
+                    {t('footer.phone_display')}
                   </a>
                   <br />
                   <a
-                    href="mailto:verkauf@manfred-heu-stroh.de"
+                    href={`mailto:${t('footer.email_sales')}`}
                     className="text-green-700 hover:text-green-800 text-sm transition-all duration-300 hover:scale-105"
                   >
-                    verkauf@manfred-heu-stroh.de  
+                    {t('footer.email_sales')}
                   </a> <br />
                   <a
-                    href="mailto:info@manfred-heu-stroh.de"
+                    href={`mailto:${t('footer.email_info')}`}
                     className="text-green-700 hover:text-green-800 text-sm transition-all duration-300 hover:scale-105"
                   >
-                    info@manfred-heu-stroh.de  
+                    {t('footer.email_info')}
                   </a>
-                  
-                  
                 </div>
               </div>
 
-              
             </div>
           </div>
         </div>
@@ -71,7 +68,7 @@ export default function Footer() {
                 href="tel:+491630295106"
                 className="text-lg font-medium hover:text-green-200 transition-all duration-300 hover:scale-105"
               >
-                011630295106
+                {t('footer.phone_display')}
               </a>
             </div>
 
@@ -80,10 +77,10 @@ export default function Footer() {
               <div className="mb-4">
                 <MapPin className="w-8 h-8 mx-auto mb-2 text-white transition-transform duration-300 hover:scale-110" />
               </div>
-              <h3 className="text-xl font-bold mb-2">MANFRED Heu und Stroh</h3>
+              <h3 className="text-xl font-bold mb-2">{t('footer.company_display')}</h3>
               <div className="space-y-1">
-                <p>Pariner Berg 18</p>
-                <p>23611 Bad Schwartau</p>
+                <p>{t('footer.address.line1')}</p>
+                <p>{t('footer.address.zipcity')}</p>
               </div>
             </div>
 
@@ -94,18 +91,16 @@ export default function Footer() {
               </div>
               <h3 className="text-xl font-bold mb-2">{t('footer.email')}</h3>
               <a
-                href="mailto:info@manfred-heu-stroh.de"
+                href={`mailto:${t('footer.email_info')}`}
                 className="hover:text-green-200 transition-all duration-300 hover:scale-105"
               >
-                info@manfred-heu-stroh.de
+                {t('footer.email_info')}
               </a>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Bottom Footer */}
-      
     </footer>
   )
 }

@@ -33,7 +33,7 @@ export default function Header() {
               href="tel:+491630295106"
               className="text-green-700 font-semibold hover:text-green-800 transition-all duration-300 hover:scale-105"
             >
-              01630295106
+              {t('footer.phone_display')}
             </a>
           </div>
 
@@ -52,9 +52,9 @@ export default function Header() {
                 <div className="absolute inset-0 bg-gradient-to-r from-yellow-500 via-green-500 to-green-700 transform skew-x-12 transition-transform duration-300 hover:scale-110"></div>
               </div>
               <div className="transition-transform duration-300 hover:scale-105">
-                <div className="text-xl font-bold text-gray-800">MANFRED</div>
-                <div className="text-sm text-gray-600 -mt-1">HEU UND STROH</div>
-                <div className="text-xs text-gray-500">SEIT 1998</div>
+                <div className="text-xl font-bold text-gray-800">{t('branding.name')}</div>
+                <div className="text-sm text-gray-600 -mt-1">{t('branding.tagline')}</div>
+                <div className="text-xs text-gray-500">{t('branding.since')}</div>
               </div>
             </div>
           </Link>
@@ -101,7 +101,7 @@ export default function Header() {
               href="tel:+491707729489"
               className="text-green-700 font-semibold text-sm hover:text-green-800 transition-all duration-300 hover:scale-105"
             >
-              01630295106
+              {t('footer.phone_display')}
             </a>
 
             {/* Mobile Language Switcher */}
@@ -167,7 +167,7 @@ export default function Header() {
                 className="text-green-700 font-semibold border-t pt-4 hover:text-green-800 transition-all duration-300 hover:translate-x-2"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Tel. 01630295106
+                {t('footer.phone_display')}
               </a>
             </div>
           </div>

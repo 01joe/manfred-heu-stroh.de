@@ -17,10 +17,10 @@ export default function KaufenPage() {
             {/* Hero Content */}
             <div className="text-white">
               <p className="text-sm uppercase tracking-wide mb-4 text-green-200">
-                HEU & STROH KAUFEN
+                {t('kaufen.hero.tagline')}
               </p>
               <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-                Wir liefern ganzjährig Heu und Stroh mit Spitzenservice
+                {t('kaufen.hero.headline')}
               </h1>
             </div>
 
@@ -36,7 +36,7 @@ export default function KaufenPage() {
                   href="#contact-form"
                   className="inline-block bg-white text-green-700 px-4 py-2 rounded hover:bg-gray-100 transition-colors mt-4"
                 >
-                  ZUM FORMULAR
+                  {t('kaufen.hero.cta_form')}
                 </a>
               </div>
 
@@ -50,7 +50,7 @@ export default function KaufenPage() {
                   href="#quality-checklist"
                   className="inline-block bg-gray-700 text-white px-4 py-2 rounded hover:bg-gray-800 transition-colors mt-4"
                 >
-                  ZUR CHECKLISTE
+                  {t('kaufen.hero.cta_checklist')}
                 </a>
               </div>
             </div>
@@ -63,10 +63,10 @@ export default function KaufenPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-2xl font-bold text-gray-800 mb-6">
-              Sie möchten Heu- und Strohballen kaufen?
+              {t('kaufen.info.title')}
             </h2>
             <p className="text-gray-600 max-w-3xl mx-auto text-lg">
-              Mit unserem eigenen Fuhrpark und qualifiziertem Personal liefern wir ganzjährig Heu- und Strohballen aus. Zuverlässig und in einwandfreier Qualität liefern wir in ganz Deutschland, Österreich, der Schweiz, den Niederlanden und anderen europäischen Ländern.
+              {t('kaufen.info.description')}
             </p>
             <div className="w-24 h-1 bg-green-600 mx-auto mt-8"></div>
           </div>
@@ -94,14 +94,10 @@ export default function KaufenPage() {
           {/* Alternative Products */}
           <div className="bg-gray-50 p-8 rounded-lg mb-16">
             <h3 className="text-2xl font-bold text-gray-800 mb-4">
-              Heu für Allergiker & Heu- und Stroh-Alternative für ältere Pferde mit Atemproblemen
+              {t('kaufen.alternatives.title')}
             </h3>
             <p className="text-gray-600">
-              Neben unserem hochwertigen Heu und Stroh bieten wir auch eine alternative Sorte für Allergiker und
-              ältere Pferde mit Atemproblemen an. Sprechen Sie uns gerne mit Ihrem persönlichen Bedarf und Ihren
-              Wünschen an. Falls Stroh für Sie unpassendes oder unhandliches Einstreu ist, bieten wir Ihnen auch
-              gerne individuelle Alternativen; z.B. Holzspäne und Stroh-Pellets für einen staubfreien Stall.
-              Wir finden für Ihre Bedürfnissen das entsprechende Einstreu.
+              {t('kaufen.alternatives.description')}
             </p>
           </div>
         </div>
@@ -119,60 +115,60 @@ export default function KaufenPage() {
               <form className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <input
                   type="text"
-                  placeholder="Vor- und Nachname"
+                  placeholder={t('contact.name')}
                   className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
                 />
                 <input
                   type="text"
-                  placeholder="ggf. Firma"
+                  placeholder={t('contact.company')}
                   className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
                 />
 
                 <input
                   type="text"
-                  placeholder="Name der Firma (optional)"
+                  placeholder={t('contact.company')}
                   className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
                 />
 
 
                 <input
                   type="email"
-                  placeholder="E-Mail-Adresse"
+                  placeholder={t('contact.email')}
                   className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
                 />
                 <input
                   type="tel"
-                  placeholder="Telefon"
+                  placeholder={t('contact.phone')}
                   className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
                 />
 
                 <input
                   type="tel"
-                  placeholder="WhatsApp-Nummer (optional)"
+                  placeholder={t('contact.whatsapp')}
                   className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
                 />
 
                 <input
                   type="text"
-                  placeholder="Vollständige Lieferadresse "
+                  placeholder={t('contact.address_full')}
                   className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
                 />
 
                 <input
                   type="text"
-                  placeholder="Menge"
+                  placeholder={t('contact.quantity')}
                   className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
                 />
 
                 <input
                   type="text"
-                  placeholder="Straße, Nr."
+                  placeholder={t('contact.street')}
                   className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
                 />
 
                 <input
                   type="text"
-                  placeholder="PLZ, Ort"
+                  placeholder={t('contact.postcode_city')}
                   className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
                 />
                 <select className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent md:col-span-2">
@@ -182,7 +178,7 @@ export default function KaufenPage() {
                   <option>{t('contact.options.both')}</option>
                 </select>
                 <textarea
-                  placeholder="Für alle Ihre Anliegen senden Sie uns hier eine Nachricht"
+                  placeholder={t('contact.message_placeholder')}
                   rows={4}
                   className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent md:col-span-2"
                 ></textarea>
@@ -190,15 +186,14 @@ export default function KaufenPage() {
                   <label className="flex items-start space-x-2 text-sm mb-4">
                     <input type="checkbox" className="mt-1" />
                     <span>
-                      Ich stimme der Verarbeitung meiner Daten zur Kontaktaufnahme zu.{' '}
-                      
+                      {t('contact.privacy')}
                     </span>
                   </label>
                   <button
                     type="submit"
                     className="bg-green-700 hover:bg-green-800 text-white font-bold px-8 py-3 rounded-lg transition-colors"
                   >
-                    SENDEN
+                    {t('contact.submit')}
                   </button>
                 </div>
               </form>
@@ -231,8 +226,7 @@ export default function KaufenPage() {
                 <div className="text-left">
                   <h3 className="text-xl font-bold text-gray-800 mb-2">{t('service.producers.title')}</h3>
                   <p className="text-gray-600">
-                    Wir kennen unsere ausgewählten Erzeugerbetriebe persönlich und sind mit eigenem
-                    qualifizierten Personal vor Ort. So können wir für Sie eine hohe Heu- & Stroh-Qualität sicherstellen.
+                    {t('service.producers.description')}
                   </p>
                 </div>
               </div>
@@ -244,8 +238,7 @@ export default function KaufenPage() {
                 <div className="text-left">
                   <h3 className="text-xl font-bold text-gray-800 mb-2">{t('service.delivery.title')}</h3>
                   <p className="text-gray-600">
-                    Wir liefern das Heu & Stroh mit eigenem Fuhrpark – so wie Sie es brauchen – das ganze Jahr über.
-                    Zuverlässig und deutschlandweit. Bestellen Sie einfach telefonisch oder per Online-Anfrage.
+                    {t('service.delivery.description')}
                   </p>
                 </div>
               </div>
@@ -257,8 +250,7 @@ export default function KaufenPage() {
                 <div className="text-left">
                   <h3 className="text-xl font-bold text-gray-800 mb-2">{t('service.guarantee.title')}</h3>
                   <p className="text-gray-600">
-                    Wir sorgen für eine einwandfreie Qualität. Sollte es doch mal eine Beanstandung oder
-                    Unzufriedenheit geben, tauschen wir die Ware umgehend aus – ohne Diskussion.
+                    {t('service.guarantee.description')}
                   </p>
                 </div>
               </div>
@@ -271,7 +263,7 @@ export default function KaufenPage() {
       <section id="quality-checklist" className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">
-            Checkliste für gute Heu- und Strohqualität
+            {t('kaufen.quality.checklist_title')}
           </h2>
           <div className="w-24 h-1 bg-green-600 mx-auto mb-12"></div>
 
@@ -286,14 +278,7 @@ export default function KaufenPage() {
               </p>
 
               <div className="space-y-4">
-                {[
-                  "Gutes Heu wird im trockenen Zustand gepresst; ist dies nicht möglich, sollte es als Heu- oder Silage verarbeitet werden",
-                  "Feuchtigkeitswert / Temperaturwert (nur bei jungem Heu) – gutes Heu wird trocken gelagert um Schimmelpilzbildung zu vermeiden",
-                  "Farbe und Geruch stimmen – das Heu ist nicht staubig oder hat einen muffigen Geruch",
-                  "Halmlänge und Zusammensetzung der Gräser stimmen",
-                  "Das Heu ist frei von Erde, Steinen, Grassoden und Gehölz, sowie Jakobskreuzkraut (JKK) und anderen Unkräutern",
-                  "Die Heuballen haben ungefähr die gleiche Form (sind gleichmäßig gepresst worden) und sind frei von Lagerstellen und Wassereinläufen"
-                ].map((item, index) => (
+                {(t('kaufen.quality.hay_items') as unknown as string[]).map((item, index) => (
                   <div key={index} className="flex items-start space-x-3">
                     <Check className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
                     <p className="text-gray-700 text-sm">{item}</p>
@@ -313,14 +298,7 @@ export default function KaufenPage() {
               </p>
 
               <div className="space-y-4">
-                {[
-                  "Gutes Stroh hat eine goldgelbe Farbe",
-                  "Es hat einen angenehmen Geruch – ein süßlicher Geruch kann hingegen auf Schimmel hindeuten",
-                  "Es enthält kein sichtbares Unkraut oder Erdsoden",
-                  "Das Stroh ist in trockener Form zu Ballen verarbeitet worden",
-                  "Bei einem offenen Ballen ist kein verklebtes Stroh zu sehen, denn das kann ein Hinweis auf Feuchtigkeit im Ballen sein",
-                  "Das Stroh wurde trocken gelagert"
-                ].map((item, index) => (
+                {(t('kaufen.quality.straw_items') as unknown as string[]).map((item, index) => (
                   <div key={index} className="flex items-start space-x-3">
                     <Check className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
                     <p className="text-gray-700 text-sm">{item}</p>
