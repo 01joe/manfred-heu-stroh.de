@@ -58,7 +58,7 @@ export default function Footer() {
       <div className="bg-green-700 text-white py-12">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            {/* Bestellung */}
+            {/* Kontaktieren Sie uns */}
             <div className="hover-lift">
               <div className="mb-4">
                 <Phone className="w-8 h-8 mx-auto mb-2 text-white transition-transform duration-300 hover:scale-110" />

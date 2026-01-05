@@ -118,11 +118,7 @@ export default function KaufenPage() {
                   placeholder={t('contact.name')}
                   className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
                 />
-                <input
-                  type="text"
-                  placeholder={t('contact.company')}
-                  className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
-                />
+
 
                 <input
                   type="text"
@@ -178,7 +174,7 @@ export default function KaufenPage() {
                   <option>{t('contact.options.both')}</option>
                 </select>
                 <textarea
-                  placeholder={t('contact.message_placeholder')}
+                  placeholder={t('Message')}
                   rows={4}
                   className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent md:col-span-2"
                 ></textarea>

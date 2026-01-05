@@ -184,7 +184,7 @@ export default function TransportLogisticsPage() {
             {/* Images */}
             <div className="space-y-4">
               <img
-                src="https://plus.unsplash.com/premium_photo-1661830833689-98b6b5ec9339?fm=jpg&q=80&w=3000"
+                src="/images/carré vert.jpg"
                 alt={t('verkaufen.images.hay_alt')}
                 className="w-full h-64 object-cover rounded-lg"
               />

@@ -23,7 +23,7 @@ export default function HomePage() {
 
       {/* Hero Section */}
       <section className="relative min-h-screen bg-cover bg-center bg-no-repeat"
-           style={{backgroundImage: "url('/images/image AC2.jpeg')"}}>
+           style={{backgroundImage: "url('/images/foinsss.jpg')"}}>
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <div className="relative container mx-auto px-4 py-20 md:py-32">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
@@ -273,7 +273,7 @@ export default function HomePage() {
             {/* Round Bales */}
             <div className="bg-white rounded-lg overflow-hidden shadow-sm card-hover animate-slide-up">
               <img
-                src="https://images.unsplash.com/photo-1722543268696-f09a03e3592f?fm=jpg&q=80&w=3000"
+                src="/images/ronde vert.jpg"
                 alt={t('products.round.alt')}
                 className="w-full h-48 object-cover hover-grow"
               />
@@ -288,7 +288,7 @@ export default function HomePage() {
             {/* Square Bales */}
             <div className="bg-white rounded-lg overflow-hidden shadow-sm card-hover animate-slide-up" style={{animationDelay: '0.2s'}}>
               <img
-                src="https://plus.unsplash.com/premium_photo-1661830833689-98b6b5ec9339?fm=jpg&q=80&w=3000"
+                src="/images/carré vert.jpg"
                 alt={t('products.square.alt')}
                 className="w-full h-48 object-cover hover-grow"
               />
@@ -303,7 +303,7 @@ export default function HomePage() {
             {/* Premium Hay */}
             <div className="bg-white rounded-lg overflow-hidden shadow-sm card-hover animate-slide-up" style={{animationDelay: '0.4s'}}>
               <img
-                src="https://plus.unsplash.com/premium_photo-1664359132441-4cab2cccb891?fm=jpg&q=80&w=3000"
+                src="/images/vip.png"
                 alt={t('products.premium.alt')}
                 className="w-full h-48 object-cover hover-grow"
               />
