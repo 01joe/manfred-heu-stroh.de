@@ -30,7 +30,7 @@ export default function Header() {
             <span>{t('header.order')}</span>
             <Phone className="w-4 h-4 transition-transform duration-300 hover:scale-110" />
             <a
-              href="tel:+491630295106"
+              href="tel:+491635458483"
               className="text-green-700 font-semibold hover:text-green-800 transition-all duration-300 hover:scale-105"
             >
               {t('footer.phone_display')}
@@ -47,16 +47,11 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center hover-lift">
-            <div className="flex items-center">
-              <div className="w-12 h-8 bg-gradient-to-r from-yellow-500 to-green-600 mr-3 relative overflow-hidden rounded-sm">
-                <div className="absolute inset-0 bg-gradient-to-r from-yellow-500 via-green-500 to-green-700 transform skew-x-12 transition-transform duration-300 hover:scale-110"></div>
-              </div>
-              <div className="transition-transform duration-300 hover:scale-105">
-                <div className="text-xl font-bold text-gray-800">{t('branding.name')}</div>
-                <div className="text-sm text-gray-600 -mt-1">{t('branding.tagline')}</div>
-                <div className="text-xs text-gray-500">{t('branding.since')}</div>
-              </div>
-            </div>
+            <img 
+              src="/images/logo.jpeg" 
+              alt="Heu und Stroh Manfred Logo" 
+              className="h-16 w-auto transition-transform duration-300 hover:scale-105"
+            />
           </Link>
 
           {/* Desktop Navigation */}
@@ -163,7 +158,7 @@ export default function Header() {
                 {t('nav.contact')}
               </a>
               <a
-                href="tel:+491707729489"
+                href="tel:+491635458483"
                 className="text-green-700 font-semibold border-t pt-4 hover:text-green-800 transition-all duration-300 hover:translate-x-2"
                 onClick={() => setIsMenuOpen(false)}
               >

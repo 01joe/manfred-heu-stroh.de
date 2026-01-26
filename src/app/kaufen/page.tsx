@@ -200,7 +200,7 @@ export default function KaufenPage() {
               <h3 className="text-xl font-bold text-gray-800 mb-4">{t('kaufen.order_via_phone')}</h3>
 
               <a
-                href="tel:+491630295106"
+                href="tel:+491635458483"
                 className="inline-block bg-green-700 text-white px-6 py-3 rounded-lg hover:bg-green-800 transition-colors font-medium"
               >
                 011630295106
