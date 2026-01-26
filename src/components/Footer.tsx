@@ -40,12 +40,7 @@ export default function Footer() {
                   >
                     {t('footer.email_sales')}
                   </a> <br />
-                  <a
-                    href={`mailto:${t('footer.email_info')}`}
-                    className="text-green-700 hover:text-green-800 text-sm transition-all duration-300 hover:scale-105"
-                  >
-                    {t('footer.email_info')}
-                  </a>
+                  
                 </div>
               </div>
 
