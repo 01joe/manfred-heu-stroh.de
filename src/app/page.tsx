@@ -122,12 +122,7 @@ export default function HomePage() {
               <p className="text-gray-600 mb-6">
                 {t('company.buy.description')}
               </p>
-              <Link
-                href="/kaufen/"
-                className="inline-flex items-center text-green-700 hover:text-green-800 font-medium transition-all duration-300 hover:translate-x-1"
-              >
-                {t('common.learn_more')} <span className="ml-2 transition-transform duration-300">→</span>
-              </Link>
+              
             </div>
 
             {/* Transport/Logistics Section */}
@@ -141,12 +136,7 @@ export default function HomePage() {
               <p className="text-gray-600 mb-6">
                 {t('company.sell.description')}
               </p>
-              <Link
-                href="/verkaufen/"
-                className="inline-flex items-center text-green-700 hover:text-green-800 font-medium transition-all duration-300 hover:translate-x-1"
-              >
-                {t('common.learn_more')} <span className="ml-2 transition-transform duration-300">→</span>
-              </Link>
+              
             </div>
           </div>
 
@@ -174,6 +164,12 @@ export default function HomePage() {
                 placeholder={t('contact.whatsapp')}
                 className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105"
               />
+              
+              <input
+                type="text"
+                placeholder={t('contact.email')}
+                className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105"
+              />
               <input
                 type="text"
                 placeholder={t('contact.street')}
@@ -184,6 +180,7 @@ export default function HomePage() {
                 placeholder={t('contact.city')}
                 className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105"
               />
+              
               <input
                 type="text"
                 placeholder={t('contact.zip')}

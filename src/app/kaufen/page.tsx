@@ -116,78 +116,55 @@ export default function KaufenPage() {
                 <input
                   type="text"
                   placeholder={t('contact.name')}
-                  className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                  className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105"
                 />
-
-
                 <input
                   type="text"
                   placeholder={t('contact.company')}
-                  className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
-                />
-
-
-                <input
-                  type="email"
-                  placeholder={t('contact.email')}
-                  className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                  className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105"
                 />
                 <input
                   type="tel"
                   placeholder={t('contact.phone')}
-                  className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                  className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105"
                 />
-
                 <input
                   type="tel"
                   placeholder={t('contact.whatsapp')}
-                  className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                  className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105"
                 />
-
+                
                 <input
                   type="text"
-                  placeholder={t('contact.address_full')}
-                  className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                  placeholder={t('contact.email')}
+                  className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105"
                 />
-
-                <input
-                  type="text"
-                  placeholder={t('contact.quantity')}
-                  className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
-                />
-
                 <input
                   type="text"
                   placeholder={t('contact.street')}
-                  className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                  className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105"
                 />
-
                 <input
                   type="text"
-                  placeholder={t('contact.postcode_city')}
-                  className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                  placeholder={t('contact.city')}
+                  className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105"
                 />
-                <select className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent md:col-span-2">
+                
+                <input
+                  type="text"
+                  placeholder={t('contact.zip')}
+                  className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105"
+                />
+                <select className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105">
                   <option>{t('contact.interest')}</option>
                   <option>{t('contact.options.hay')}</option>
                   <option>{t('contact.options.straw')}</option>
-                  <option>{t('contact.options.both')}</option>
                 </select>
-                <textarea
-                  placeholder={t('Message')}
-                  rows={4}
-                  className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent md:col-span-2"
-                ></textarea>
                 <div className="md:col-span-2">
-                  <label className="flex items-start space-x-2 text-sm mb-4">
-                    <input type="checkbox" className="mt-1" />
-                    <span>
-                      {t('contact.privacy')}
-                    </span>
-                  </label>
+                  
                   <button
                     type="submit"
-                    className="bg-green-700 hover:bg-green-800 text-white font-bold px-8 py-3 rounded-lg transition-colors"
+                    className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold px-8 py-3 rounded transition-all duration-300 hover:shadow-lg hover:scale-105"
                   >
                     {t('contact.submit')}
                   </button>
