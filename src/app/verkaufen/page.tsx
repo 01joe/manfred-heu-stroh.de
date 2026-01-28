@@ -138,44 +138,7 @@ export default function TransportLogisticsPage() {
         </div>
       </section>
 
-      {/* Service Areas Section */}
-      <section id="service-areas" className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">
-            {t('verkaufen.service_areas.title')}
-          </h2>
-          <div className="w-24 h-1 bg-green-600 mx-auto mb-12"></div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Germany */}
-            <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-gray-800 mb-4">🇩🇪 {t('verkaufen.regions.de')}</h3>
-              <p className="text-gray-600 mb-4">
-                {t('verkaufen.regions.de_description')}
-              </p>
-              
-            </div>
-
-            {/* Austria & Switzerland */}
-            <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-gray-800 mb-4">🇦🇹🇨🇭 {t('verkaufen.regions.at_ch')}</h3>
-              <p className="text-gray-600 mb-4">
-                {t('verkaufen.regions.at_ch_description')}
-              </p>
-              
-            </div>
-
-            {/* Other European Countries */}
-            <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-gray-800 mb-4">🇪🇺 {t('verkaufen.regions.eu')}</h3>
-              <p className="text-gray-600 mb-4">
-                {t('verkaufen.regions.eu_description')}
-              </p>
-              
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       {/* Logistics Advantages */}
       <section className="py-16 bg-gray-50">
