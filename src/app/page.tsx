@@ -189,6 +189,7 @@ export default function HomePage() {
                   city: '',
                   zip: '',
                   interest: '',
+                  personalMessage: '',
                 })
               } catch (error) {
                 setSubmitError('Erreur lors de l\'envoi. Veuillez réessayer.')
