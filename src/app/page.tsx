@@ -178,7 +178,7 @@ export default function HomePage() {
                   throw new Error('Failed to send email')
                 }
 
-                setSubmitMessage('Merci ! Votre message a été envoyé avec succès.')
+                setSubmitMessage('Votre demande a bien été envoyé. Vous serez contacté sous peu.')
                 setFormData({
                   name: '',
                   company: '',
@@ -191,7 +191,7 @@ export default function HomePage() {
                   interest: '',
                 })
               } catch (error) {
-                setSubmitError('Erreur lors de l\'envoi du message. Veuillez réessayer.')
+                setSubmitError('Erreur lors de l\'envoi. Veuillez réessayer.')
               } finally {
                 setIsSubmitting(false)
               }
