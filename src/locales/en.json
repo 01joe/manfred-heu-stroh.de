@@ -26,7 +26,7 @@
   "company.sell.description": "Professional logistics solutions for hay and straw. With our own fleet and experienced staff, we ensure reliable deliveries throughout Europe.",
   "common.learn_more": "LEARN MORE",
 
-  "contact.title": "Schedule Consultation",
+  "contact.title": "Order hay and/or straw by filling out the form below (You will be contacted by our company within minutes)",
   "contact.name": "Your Name",
   "contact.phone": "Your Phone Number",
   "contact.whatsapp": "WhatsApp Number (optional)",
@@ -39,6 +39,7 @@
   "contact.quantity": "Quantity",
   "contact.postcode_city": "ZIP, City",
   "contact.interest": "I am interested in...",
+  "contact.personalMessage": "Please explain, specify your preferences, or describe your concerns here.",
   "contact.privacy": "I agree to the processing of my data for contact purposes.",
   "contact.privacy_link": "More about Privacy",
   "contact.submit": "SUBMIT",

@@ -2,11 +2,27 @@
 
 import Link from 'next/link'
 import { Check } from 'lucide-react'
+import { useState } from 'react'
 import FAQAccordion from '@/components/FAQAccordion'
 import { useLanguage } from '@/contexts/LanguageContext'
 
 export default function HomePage() {
   const { t } = useLanguage()
+  const [formData, setFormData] = useState({
+    name: '',
+    company: '',
+    phone: '',
+    whatsapp: '',
+    email: '',
+    street: '',
+    city: '',
+    zip: '',
+    interest: '',
+    personalMessage: '',
+  })
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitMessage, setSubmitMessage] = useState('')
+  const [submitError, setSubmitError] = useState('')
 
   const scrollToSection = (sectionId: string) => {
     if (typeof window !== 'undefined') {
@@ -143,63 +159,140 @@ export default function HomePage() {
           {/* Contact Form */}
           <div className="bg-green-700 text-white p-8 rounded-lg hover-lift animate-scale-in">
             <h3 className="text-2xl font-bold mb-6">{t('contact.title')}</h3>
-            <form className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <form className="grid grid-cols-1 md:grid-cols-2 gap-4" onSubmit={async (e) => {
+              e.preventDefault()
+              setIsSubmitting(true)
+              setSubmitMessage('')
+              setSubmitError('')
+
+              try {
+                const response = await fetch('/api/contact', {
+                  method: 'POST',
+                  headers: {
+                    'Content-Type': 'application/json',
+                  },
+                  body: JSON.stringify(formData),
+                })
+
+                if (!response.ok) {
+                  throw new Error('Failed to send email')
+                }
+
+                setSubmitMessage('Merci ! Votre message a été envoyé avec succès.')
+                setFormData({
+                  name: '',
+                  company: '',
+                  phone: '',
+                  whatsapp: '',
+                  email: '',
+                  street: '',
+                  city: '',
+                  zip: '',
+                  interest: '',
+                })
+              } catch (error) {
+                setSubmitError('Erreur lors de l\'envoi du message. Veuillez réessayer.')
+              } finally {
+                setIsSubmitting(false)
+              }
+            }}>
               <input
                 type="text"
                 placeholder={t('contact.name')}
+                value={formData.name}
+                onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                required
                 className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105"
               />
               <input
                 type="text"
                 placeholder={t('contact.company')}
+                value={formData.company}
+                onChange={(e) => setFormData({ ...formData, company: e.target.value })}
                 className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105"
               />
               <input
                 type="tel"
                 placeholder={t('contact.phone')}
+                value={formData.phone}
+                onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+                required
                 className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105"
               />
               <input
                 type="tel"
                 placeholder={t('contact.whatsapp')}
+                value={formData.whatsapp}
+                onChange={(e) => setFormData({ ...formData, whatsapp: e.target.value })}
                 className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105"
               />
               
               <input
-                type="text"
+                type="email"
                 placeholder={t('contact.email')}
+                value={formData.email}
+                onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                required
                 className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105"
               />
               <input
                 type="text"
                 placeholder={t('contact.street')}
+                value={formData.street}
+                onChange={(e) => setFormData({ ...formData, street: e.target.value })}
                 className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105"
               />
               <input
                 type="text"
                 placeholder={t('contact.city')}
+                value={formData.city}
+                onChange={(e) => setFormData({ ...formData, city: e.target.value })}
                 className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105"
               />
               
               <input
                 type="text"
                 placeholder={t('contact.zip')}
+                value={formData.zip}
+                onChange={(e) => setFormData({ ...formData, zip: e.target.value })}
                 className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105"
               />
-              <select className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105">
-                <option>{t('contact.interest')}</option>
+              <select 
+                value={formData.interest}
+                onChange={(e) => setFormData({ ...formData, interest: e.target.value })}
+                className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105"
+              >
+                <option value="">{t('contact.interest')}</option>
                 <option>{t('contact.options.hay')}</option>
                 <option>{t('contact.options.straw')}</option>
+                <option>{t('contact.options.both')}</option>
               </select>
+              <textarea
+                placeholder={t('contact.personalMessage')}
+                value={formData.personalMessage}
+                onChange={(e) => setFormData({ ...formData, personalMessage: e.target.value })}
+                className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105 md:col-span-2 resize-none"
+                rows={4}
+              />
               <div className="md:col-span-2">
-                
                 <button
                   type="submit"
-                  className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold px-8 py-3 rounded transition-all duration-300 hover:shadow-lg hover:scale-105"
+                  disabled={isSubmitting}
+                  className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold px-8 py-3 rounded transition-all duration-300 hover:shadow-lg hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  {t('contact.submit')}
+                  {isSubmitting ? 'Envoi...' : t('contact.submit')}
                 </button>
               </div>
+              {submitMessage && (
+                <div className="md:col-span-2 bg-green-100 text-green-800 p-3 rounded">
+                  {submitMessage}
+                </div>
+              )}
+              {submitError && (
+                <div className="md:col-span-2 bg-red-100 text-red-800 p-3 rounded">
+                  {submitError}
+                </div>
+              )}
             </form>
           </div>
         </div>

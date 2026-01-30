@@ -26,7 +26,7 @@
   "company.sell.description": "Professionele logistieke oplossingen voor hooi en stro. Met ons eigen wagenpark en ervaren personeel garanderen wij betrouwbare leveringen in heel Europa.",
   "common.learn_more": "MEER WETEN",
 
-  "contact.title": "Consultatie Plannen",
+  "contact.title": "Bestel hooi en/of stro door onderstaand formulier in te vullen (u wordt binnen enkele minuten door ons bedrijf gecontacteerd).",
   "contact.name": "Uw Naam",
   "contact.phone": "Uw Telefoonnummer",
   "contact.whatsapp": "WhatsApp Nummer (optioneel)",
@@ -39,6 +39,7 @@
   "contact.quantity": "Hoeveelheid",
   "contact.postcode_city": "Postcode, Plaats",
   "contact.interest": "Ik ben geïnteresseerd in...",
+  "contact.personalMessage": "Geef hier een toelichting, specificeer uw voorkeuren of beschrijf uw zorgen.",
   "contact.privacy": "Ik ga akkoord met de verwerking van mijn gegevens voor contactdoeleinden.",
   "contact.privacy_link": "Meer over Privacy",
   "contact.submit": "VERZENDEN",

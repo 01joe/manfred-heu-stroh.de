@@ -26,7 +26,7 @@
   "company.sell.description": "Solutions logistiques professionnelles pour le foin et la paille. Avec notre propre flotte et du personnel expérimenté, nous assurons des livraisons fiables dans toute l'Europe.",
   "common.learn_more": "EN SAVOIR PLUS",
 
-  "contact.title": "Planifier une Consultation",
+  "contact.title": "Commander du foin et/ou de la paille en remplissant le formulaire ci-dessous (Vous serez contacté par notre entreprise dans les minutes à suivre)",
   "contact.name": "Votre Nom",
   "contact.phone": "Votre Numéro de Téléphone",
   "contact.whatsapp": "Numéro WhatsApp (optionnel)",
@@ -39,6 +39,7 @@
   "contact.quantity": "Quantité",
   "contact.postcode_city": "Code postal, Ville",
   "contact.interest": "Je suis intéressé par...",
+  "contact.personalMessage": "Veuillez expliquer, préciser vos préférences ou décrivez vos préoccupations ici",
   "contact.privacy": "J'accepte le traitement de mes données à des fins de contact.",
   "contact.privacy_link": "Plus sur la Confidentialité",
   "contact.submit": "ENVOYER",

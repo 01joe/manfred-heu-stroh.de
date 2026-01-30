@@ -26,7 +26,7 @@
   "company.sell.description": "Professionelle Logistiklösungen für Heu und Stroh. Mit eigener Fahrzeugflotte und erfahrenem Personal gewährleisten wir zuverlässige Lieferungen in ganz Europa.",
   "common.learn_more": "MEHR ERFAHREN",
 
-  "contact.title": "Beratung vereinbaren",
+  "contact.title": "Bestellen Sie Heu und/oder Stroh, indem Sie das untenstehende Formular ausfüllen (Sie werden innerhalb weniger Minuten von unserem Unternehmen kontaktiert).",
   "contact.name": "Ihr Name",
   "contact.phone": "Ihre Rufnummer",
   "contact.whatsapp": "WhatsApp-Nummer (optional)",
@@ -39,6 +39,7 @@
   "contact.quantity": "Menge",
   "contact.postcode_city": "PLZ, Ort",
   "contact.interest": "Ich interessiere mich für...",
+  "contact.personalMessage": "Geef hier een toelichting, specificeer uw voorkeuren of beschrijf uw zorgen.",
   "contact.privacy": "Ich stimme der Verarbeitung meiner Daten zur Kontaktaufnahme zu.",
   "contact.privacy_link": "Mehr zum Datenschutz",
   "contact.submit": "ABSENDEN",
