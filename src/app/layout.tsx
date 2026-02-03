@@ -8,7 +8,7 @@ import { LanguageProvider } from "@/contexts/LanguageContext";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Heu & Stroh Handel Müller - Hohe Qualität und fairer Preis",
+  title: "Heu & Stroh Handel Manfred - Hohe Qualität und fairer Preis",
   description: "Heu & Stroh in hoher Qualität kaufen oder verkaufen - zum fairen Preis. Wir verkaufen ganzjährig - Bestellung: 0170 7729489",
 };
 
