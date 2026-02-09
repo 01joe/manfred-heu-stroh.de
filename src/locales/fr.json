@@ -157,10 +157,10 @@
   "branding.tagline": "FOIN ET PAILLE",
   "branding.since": "DEPUIS 1998",
 
-  "footer.company_display": "MANFRED Foin et Paille",
+  "footer.company_display": "WOLF MANFRED HEU UND STROH GmbH & Co. KG ",
   "footer.address.line1": "Würzburger Str. 35",
   "footer.address.zipcity": "96049 Bamberg, Allemagne",
-  "footer.phone_display": "Tél. +491635458483",
+  "footer.phone_display": "Tél. +49(0)1635458483",
 
   "datenschutz.title": "Politique de confidentialité",
   "datenschutz.section1_title": "1. Confidentialité en bref",
@@ -253,13 +253,13 @@
     }
   ],
 
-  "footer.partners.title": "Vos Partenaires de Contact",
-  "footer.jan.role": "Service clientèle",
+  "footer.partners.title": "Directeurs généraux habilités à représenter la société",
+  "footer.jan.role": "Mr WOLF THOMAS & Mme WOLF MANFRED MARGARIT",
   "footer.friedrich.role": "Contact pour Vendeurs de Foin et Paille",
   "footer.niklas.role": "Contact Sur Site; Logistique & Service Terrain",
   "footer.christa.role": "Comptabilité",
   "footer.order": "Contactez-nous par WhatsApp",
-  "footer.email": "Direction Générale",
+  "footer.email": "Responsable du service de vente et livraison",
   "footer.email_sales": "verkauf@manfred-heu-stroh.de",
   "footer.email_info": "info@manfred-heu-stroh.de",
   "footer.privacy": "Politique de Confidentialité",

@@ -30,7 +30,7 @@ export default function Header() {
             <span>{t('header.order')}</span>
             <Phone className="w-4 h-4 transition-transform duration-300 hover:scale-110" />
             <a
-              href="tel:+491635458483"
+              href="tel:+49(0)1635458483"
               className="text-green-700 font-semibold hover:text-green-800 transition-all duration-300 hover:scale-105"
             >
               {t('footer.phone_display')}
@@ -158,7 +158,7 @@ export default function Header() {
                 {t('nav.contact')}
               </a>
               <a
-                href="tel:+491635458483"
+                href="tel:+49(0)1635458483"
                 className="text-green-700 font-semibold border-t pt-4 hover:text-green-800 transition-all duration-300 hover:translate-x-2"
                 onClick={() => setIsMenuOpen(false)}
               >

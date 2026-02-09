@@ -28,7 +28,7 @@ export default function Footer() {
                 <p className="text-gray-600 mb-4">{t('footer.jan.role')}</p>
                 <div className="space-y-2">
                   <a
-                    href="tel:+491635458483"
+                    href="tel:+49(0)1635458483"
                     className="text-green-700 hover:text-green-800 font-medium transition-all duration-300 hover:scale-105"
                   >
                     {t('footer.phone_display')}
@@ -60,7 +60,7 @@ export default function Footer() {
               </div>
               <h3 className="text-xl font-bold mb-2">{t('footer.order')}</h3>
               <a
-                href="tel:+491635458483"
+                href="tel:+49(0)1635458483"
                 className="text-lg font-medium hover:text-green-200 transition-all duration-300 hover:scale-105"
               >
                 {t('footer.phone_display')}

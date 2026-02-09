@@ -111,76 +111,17 @@ export default function KaufenPage() {
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Form */}
-            <div className="lg:col-span-2">
-              <form className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <input
-                  type="text"
-                  placeholder={t('contact.name')}
-                  className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105"
-                />
-                <input
-                  type="text"
-                  placeholder={t('contact.company')}
-                  className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105"
-                />
-                <input
-                  type="tel"
-                  placeholder={t('contact.phone')}
-                  className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105"
-                />
-                <input
-                  type="tel"
-                  placeholder={t('contact.whatsapp')}
-                  className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105"
-                />
-                
-                <input
-                  type="text"
-                  placeholder={t('contact.email')}
-                  className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105"
-                />
-                <input
-                  type="text"
-                  placeholder={t('contact.street')}
-                  className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105"
-                />
-                <input
-                  type="text"
-                  placeholder={t('contact.city')}
-                  className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105"
-                />
-                
-                <input
-                  type="text"
-                  placeholder={t('contact.zip')}
-                  className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105"
-                />
-                <select className="p-3 rounded text-gray-800 transition-all duration-300 focus:ring-2 focus:ring-yellow-400 focus:scale-105">
-                  <option>{t('contact.interest')}</option>
-                  <option>{t('contact.options.hay')}</option>
-                  <option>{t('contact.options.straw')}</option>
-                </select>
-                <div className="md:col-span-2">
-                  
-                  <button
-                    type="submit"
-                    className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold px-8 py-3 rounded transition-all duration-300 hover:shadow-lg hover:scale-105"
-                  >
-                    {t('contact.submit')}
-                  </button>
-                </div>
-              </form>
-            </div>
+            
 
             {/* Contact Info */}
               <div className="bg-white p-6 rounded-lg shadow-sm">
               <h3 className="text-xl font-bold text-gray-800 mb-4">{t('kaufen.order_via_phone')}</h3>
 
               <a
-                href="tel:+491635458483" 
+                href="tel:+49(0)1635458483" 
                 className="inline-block bg-green-700 text-white px-6 py-3 rounded-lg hover:bg-green-800 transition-colors font-medium"
               >
-                +491635458483
+                +49(0)1635458483
               </a>
             </div>
           </div>

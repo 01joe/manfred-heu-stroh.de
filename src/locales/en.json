@@ -157,10 +157,10 @@
   "branding.tagline": "HAY AND STRAW",
   "branding.since": "SINCE 1998",
 
-  "footer.company_display": "MANFRED Hay and Straw",
+  "footer.company_display": "WOLF MANFRED HEU UND STROH GmbH & Co. KG ",
   "footer.address.line1": "Würzburger Str. 35",
   "footer.address.zipcity": "96049 Bamberg, Germany",
-  "footer.phone_display": "Tel. +491635458483",
+  "footer.phone_display": "Tel. +49(0)1635458483",
 
   "datenschutz.title": "Privacy Policy",
   "datenschutz.section1_title": "1. Privacy at a glance",
@@ -253,13 +253,13 @@
     }
   ],
 
-  "footer.partners.title": "Your Contact Partners",
-  "footer.jan.role": "Customer service",
+  "footer.partners.title": "Managing Directors authorized to represent the company",
+  "footer.jan.role": "Mr WOLF THOMAS & Mrs WOLF MANFRED MARGARIT",
   "footer.friedrich.role": "Contact for Hay & Straw Sellers",
   "footer.niklas.role": "On-site Contact; Logistics & Field Service",
   "footer.christa.role": "Accounting",
   "footer.order": "Contact us via WhatsApp",
-  "footer.email": "General Management",
+  "footer.email": "Head of Sales and Delivery Department",
   "footer.email_sales": "verkauf@manfred-heu-stroh.de",
   "footer.email_info": "info@manfred-heu-stroh.de",
   "footer.privacy": "Privacy Policy",

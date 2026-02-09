@@ -157,10 +157,10 @@
   "branding.tagline": "HEU UND STROH",
   "branding.since": "SEIT 1998",
 
-  "footer.company_display": "MANFRED Heu und Stroh",
+  "footer.company_display": "WOLF MANFRED HEU UND STROH GmbH & Co. KG ",
   "footer.address.line1": "Würzburger Str. 35",
   "footer.address.zipcity": "96049 Bamberg, Deutschland",
-  "footer.phone_display": "Tel. +491635458483",
+  "footer.phone_display": "Tel. +49(0)1635458483",
 
   "datenschutz.title": "Datenschutzerklärung",
   "datenschutz.section1_title": "1. Datenschutz auf einen Blick",
@@ -253,13 +253,13 @@
     }
   ],
 
-  "footer.partners.title": "Ihre Ansprechpartner",
-  "footer.jan.role": "Kundendienst",
+  "footer.partners.title": "Geschäftsführer, die befugt sind, das Unternehmen zu vertreten",
+  "footer.jan.role": "Herr WOLF THOMAS und Frau WOLF MANFRED MARGARIT",
   "footer.friedrich.role": "Ansprechpartner für Heu & Stroh-Verkäufer",
   "footer.niklas.role": "Ansprechpartner vor Ort; Logistik & Außendienst",
   "footer.christa.role": "Buchhaltung",
   "footer.order": "Kontaktieren Sie uns per WhatsApp",
-  "footer.email": "Allgemeine Geschäftsführung",
+  "footer.email": "Leiter der Vertriebs- und Lieferabteilung",
   "footer.email_sales": "verkauf@manfred-heu-stroh.de",
   "footer.email_info": "info@manfred-heu-stroh.de",
   "footer.privacy": "Datenschutzerklärung",
