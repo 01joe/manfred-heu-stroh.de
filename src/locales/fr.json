@@ -6,7 +6,7 @@
   "nav.contact": "CONTACT",
   "header.order": "Contactez-nous par WhatsApp",
 
-  "hero.tagline": "COMMERCE DE FOIN ET PAILLE MANFRED",
+  "hero.tagline": "COMMERCE DE FOIN ET PAILLE ",
   "hero.title": "Haute Qualité à Prix Équitables avec Service Premium",
   "hero.buy.title": "Foin et Paille",
   "hero.buy.action": "ACHETER",
@@ -157,7 +157,7 @@
   "branding.tagline": "FOIN ET PAILLE",
   "branding.since": "DEPUIS 1998",
 
-  "footer.company_display": "WOLF MANFRED HEU UND STROH GmbH & Co. KG ",
+  "footer.company_display": "WOLF MANFRED GmbH & Co. KG ",
   "footer.address.line1": "Würzburger Str. 35",
   "footer.address.zipcity": "96049 Bamberg, Allemagne",
   "footer.phone_display": "Tél. +49(0)1635458483",
@@ -254,12 +254,12 @@
   ],
 
   "footer.partners.title": "Directeurs généraux habilités à représenter la société",
-  "footer.jan.role": "Mr WOLF THOMAS & Mme WOLF MANFRED MARGARITA",
+  "footer.jan.role": "M. WOLF THOMAS & Mme WOLF MANFRED MARGARITA",
   "footer.friedrich.role": "Contact pour Vendeurs de Foin et Paille",
   "footer.niklas.role": "Contact Sur Site; Logistique & Service Terrain",
   "footer.christa.role": "Comptabilité",
-  "footer.order": "Responsable du service de vente et livraison",
-  "footer.email": "Responsable du service de vente et livraison",
+  "footer.order": "Service Comptable",
+  "footer.email": "Service Comptable",
   "footer.email_sales": "info@manfred-heu-stroh.de",
   "footer.email_info": "info@manfred-heu-stroh.de",
   "footer.privacy": "Politique de Confidentialité",
