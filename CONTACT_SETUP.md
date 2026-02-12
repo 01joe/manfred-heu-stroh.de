@@ -2,7 +2,7 @@
 
 ## Configuration requise
 
-Le formulaire de contact envoie maintenant les emails à **info@manfred-heu-stroh.de**.
+Le formulaire de contact envoie maintenant les emails à **info@wolf-heu-stroh.de**.
 
 ### Étapes de configuration :
 
@@ -15,7 +15,7 @@ Le formulaire de contact envoie maintenant les emails à **info@manfred-heu-stro
    SMTP_USER=your-email@gmail.com    # Votre adresse email
    SMTP_PASSWORD=your-app-password   # Votre mot de passe d'application
    SMTP_FROM=noreply@manfred-heu-stroh.de  # Adresse d'envoi
-   CONTACT_EMAIL=info@manfred-heu-stroh.de # Adresse de réception
+   CONTACT_EMAIL=info@wolf-heu-stroh.de # Adresse de réception
    ```
 
 ### Utiliser Gmail :
@@ -36,8 +36,8 @@ SMTP_PORT=587
 SMTP_SECURE=false
 SMTP_USER=apikey
 SMTP_PASSWORD=SG.xxx...
-SMTP_FROM=noreply@manfred-heu-stroh.de
-CONTACT_EMAIL=info@manfred-heu-stroh.de
+   SMTP_FROM=noreply@manfred-heu-stroh.de
+CONTACT_EMAIL=info@wolf-heu-stroh.de
 ```
 
 ## Fonctionnalités implémentées :

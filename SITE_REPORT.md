@@ -26,7 +26,7 @@ Date: 21 décembre 2025
 - Les fichiers de traduction (`src/locales/de.json`, `en.json`, `fr.json`, `nl.json`) contiennent les clés affichées dans le site (nav, hero, company, contact, service, faq.items, footer, etc.).
 
 ## Contenu & données
-- Coordonnées codées en dur: téléphone(s) (ex. 01630295106), emails (`info@manfred-heu-stroh.de`, `verkauf@manfred-heu-stroh.de`), adresse: Pariner Berg 18, 23611 Bad Schwartau.
+- Coordonnées codées en dur: téléphone(s) (ex. 01630295106), emails (`info@wolf-heu-stroh.de`, `info@wolf-heu-stroh.de`), adresse: Pariner Berg 18, 23611 Bad Schwartau.
 - FAQ entièrement dans les fichiers de locales — donc multi-langues automatiquement.
 - Formulaires: présents avec placeholders et contrôles HTML de base; pas d'API d'envoi implémentée dans le code parcouru (formulaires front-end uniquement).
 

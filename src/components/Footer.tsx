@@ -95,10 +95,10 @@ export default function Footer() {
               <h3 className="text-xl font-bold mb-2">{t('footer.order')}</h3>
               <div className="flex items-center justify-center gap-2">
                 <a
-                  href="mailto:info@manfred-heu-stroh.de"
+                  href="mailto:info@wolf-heu-stroh.de"
                   className="hover:text-green-200 transition-all duration-300 hover:scale-105"
                 >
-                  info@manfred-heu-stroh.de
+                  info@wolf-heu-stroh.de
                 </a>
               </div>
             </div>

@@ -55,7 +55,7 @@ export async function POST(request: NextRequest) {
     // Send email
     const mailOptions = {
       from: process.env.SMTP_FROM || process.env.SMTP_USER,
-      to: process.env.CONTACT_EMAIL || 'info@manfred-heu-stroh.de',
+      to: process.env.CONTACT_EMAIL || 'info@wolf-heu-stroh.de',
       subject: `Nouvelle demande de contact de ${name}`,
       html: emailContent,
       replyTo: email,
