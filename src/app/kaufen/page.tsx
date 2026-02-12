@@ -108,7 +108,7 @@ export default function KaufenPage() {
       {/* Contact Form Section */}
       <section id="contact-form" className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">{t('kaufen.order_form.title')}</h2>
+          
           <div className="w-24 h-1 bg-green-600 mx-auto mb-12"></div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
