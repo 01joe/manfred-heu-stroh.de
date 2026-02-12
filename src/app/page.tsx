@@ -130,7 +130,7 @@ export default function HomePage() {
             {/* Buy Section */}
             <div className="animate-slide-up hover-lift">
               <img
-                src="/images/image AC3.jpeg"
+                src="/images/bcar4.jpeg"
                 alt={t('company.buy.title')}
                 className="w-full h-64 object-cover rounded-lg mb-6 hover-grow"
               />
@@ -226,7 +226,7 @@ export default function HomePage() {
             {/* Round Bales */}
             <div className="bg-white rounded-lg overflow-hidden shadow-sm card-hover animate-slide-up">
               <img
-                src="/images/ronde vert.jpg"
+                src="/images/bcar2.jpeg"
                 alt={t('products.round.alt')}
                 className="w-full h-48 object-cover hover-grow"
               />
