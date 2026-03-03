@@ -241,7 +241,7 @@ export default function HomePage() {
             {/* Square Bales */}
             <div className="bg-white rounded-lg overflow-hidden shadow-sm card-hover animate-slide-up" style={{animationDelay: '0.2s'}}>
               <img
-                src="/images/carré vert.jpg"
+                src="/images/mfd.jpeg"
                 alt={t('products.square.alt')}
                 className="w-full h-48 object-cover hover-grow"
               />
