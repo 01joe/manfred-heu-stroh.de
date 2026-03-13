@@ -15,3 +15,4 @@ export default function ClientBody({
 
   return <div className="antialiased">{children}</div>;
 }
+

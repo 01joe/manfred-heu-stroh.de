@@ -226,7 +226,7 @@ export default function HomePage() {
             {/* Round Bales */}
             <div className="bg-white rounded-lg overflow-hidden shadow-sm card-hover animate-slide-up">
               <img
-                src="/images/bcar2.jpeg"
+                src="/images/rondes.jpeg"
                 alt={t('products.round.alt')}
                 className="w-full h-48 object-cover hover-grow"
               />
@@ -241,7 +241,7 @@ export default function HomePage() {
             {/* Square Bales */}
             <div className="bg-white rounded-lg overflow-hidden shadow-sm card-hover animate-slide-up" style={{animationDelay: '0.2s'}}>
               <img
-                src="/images/mfd.jpeg"
+                src="/images/carréé.jpeg"
                 alt={t('products.square.alt')}
                 className="w-full h-48 object-cover hover-grow"
               />
@@ -295,3 +295,4 @@ export default function HomePage() {
     </div>
   )
 }
+

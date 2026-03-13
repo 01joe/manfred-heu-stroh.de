@@ -185,7 +185,7 @@
   "impressum.address.zipcity": "07554 Schwaara, Allemagne",
   "impressum.contact_title": "Contact",
   "impressum.contact.phone": "Phone: 0170 7729489",
-  "impressum.contact.email": "E-Mail: info@wolf-heu-stroh.de",
+  "impressum.contact.email": "E-Mail: info@manfred-heu-stroh.de",
   "impressum.vat_title": "VAT ID",
   "impressum.vat_body": "VAT identification number pursuant to § 27 a of the German VAT Act: [added if needed]",
   "impressum.responsible_title": "Person responsible for content pursuant to § 55 (2) RStV",
@@ -260,8 +260,8 @@
   "footer.christa.role": "Accounting",
   "footer.order": "Accounting Department",
   "footer.email": "Accounting Department",
-  "footer.email_sales": "info@wolf-heu-stroh.de",
-  "footer.email_info": "info@wolf-heu-stroh.de",
+  "footer.email_sales": "info@manfred-heu-stroh.de",
+  "footer.email_info": "info@manfred-heu-stroh.de",
   "footer.privacy": "Privacy Policy",
   "footer.imprint": "Imprint",
 
@@ -269,3 +269,4 @@
   "cookie.continue": "Continue",
   "cookie.privacy": "Privacy Policy"
 }
+
